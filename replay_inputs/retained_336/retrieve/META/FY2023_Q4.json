@@ -1,0 +1,188 @@
+{
+  "schema_version": "came_quote_free_typed_retrieval_v1",
+  "ticker": "META",
+  "quarter_observed": "FY2023_Q3",
+  "affected_quarter": "FY2023_Q4",
+  "segment_shares_base_raw": {
+    "Meta Platforms::Family Of Apps": 0.993849938499385,
+    "Meta Platforms::Reality Labs": 0.006150061500615006
+  },
+  "segment_shares_base_canonical": {
+    "Meta Platforms::Family Of Apps": 0.993849938499385,
+    "Meta Platforms::Reality Labs": 0.006150061500615006
+  },
+  "cards_by_segment": {
+    "Meta Platforms::Family Of Apps": [
+      {
+        "instance_id": "61cc6a036a250099b13316dc",
+        "segment": "Meta Platforms::Family Of Apps",
+        "relation_family": "demand",
+        "category": "demand",
+        "polarity": "positive",
+        "strength": "high",
+        "confidence": 1.0,
+        "persistence_hint": true,
+        "weight": 1.0,
+        "source_text_sha256": "055a4847206aaeacf18bc9fb3bc7fce803f4f04da38c1a3ef52544bbdca5e9d6",
+        "source_text_char_count": 90,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "149bb60d17bd869a0dec61a8",
+          "1c9285428e2e1cee543b2704",
+          "505329ec4373444ed1d19f98",
+          "6bae6a8c3be74b9c869982ad",
+          "806664e6b58e3519fc81bf6c",
+          "8ac0ddd7bf6b0174ac5ed721",
+          "95e4cd6370e5c9e39086474b",
+          "af7458d4250de09e7b63da27",
+          "b5a96582b464162cffe124da",
+          "cacbef17f560c008ae87d038",
+          "de0a6e5d54af1664fdbe3dd1"
+        ],
+        "release_status": "quote_withheld_third_party"
+      },
+      {
+        "instance_id": "577ceb38e7a44e7618dba2ab",
+        "segment": "Meta Platforms::Family Of Apps",
+        "relation_family": "demand",
+        "category": "demand",
+        "polarity": "positive",
+        "strength": "high",
+        "confidence": 1.0,
+        "persistence_hint": false,
+        "weight": 1.0,
+        "source_text_sha256": "ad4fd60190e1c3f876372aa01bea5fc5a933013387fe03e573dd23edb4f0ff49",
+        "source_text_char_count": 84,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "2ea406a287778b6a7b3dbe53",
+          "4a60aa25434f9f72ba4afbd9",
+          "5dcad119926eac44bded50a8",
+          "633834b440923d87f315e854",
+          "924dc8a798505b80dab33cde",
+          "a1c378f9f215f6ffd195e819",
+          "a7effe6d84be34b97e8427fc",
+          "be9983bd42f283b7c67b7eec",
+          "f71f7e26f0b219407ac40d6d"
+        ],
+        "release_status": "quote_withheld_third_party"
+      },
+      {
+        "instance_id": "31b516bd3207e30f1ed5650a",
+        "segment": "Meta Platforms::Family Of Apps",
+        "relation_family": "product_transition",
+        "category": "product_transition",
+        "polarity": "positive",
+        "strength": "medium",
+        "confidence": 1.0,
+        "persistence_hint": true,
+        "weight": 0.6,
+        "source_text_sha256": "884c74afee032a5f280275844ac839588efcd3ab83cfb17db91a28ed03e7fbdd",
+        "source_text_char_count": 74,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "1798823b91dc0efdd89407d5",
+          "47fdf835b312ca99ffa7c41e",
+          "4e61e86b749d8cb714ef9990",
+          "54a9ea8d5b42aaedbb7b42e8",
+          "55d9acde94d26e7f45ced649",
+          "abdf9b18d01e85d5cd62d5ee",
+          "cacbef17f560c008ae87d038",
+          "d333116136d7e92fbb5fe730",
+          "d51785aa8fa616bdbfb9210d"
+        ],
+        "release_status": "quote_withheld_third_party"
+      }
+    ],
+    "Meta Platforms::Reality Labs": [
+      {
+        "instance_id": "bba6f4b7423c178b1ccc6f1c",
+        "segment": "Meta Platforms::Reality Labs",
+        "relation_family": "supply",
+        "category": "supply",
+        "polarity": "negative",
+        "strength": "medium",
+        "confidence": 1.0,
+        "persistence_hint": false,
+        "weight": -0.6,
+        "source_text_sha256": "b3d3bd82fb65e38044a09cbee3d2d8ac8a5fe1d0ae68eae55ac243f6ab40c2c2",
+        "source_text_char_count": 56,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "085e80a6cfa734fc0f1b22c8",
+          "41f5aa57bbfb8f829f567787",
+          "63ab300ee0006d3d5005652a",
+          "9320d90b8f47493ca807949f",
+          "d2f2ed60c14e9030d0787622"
+        ],
+        "release_status": "quote_withheld_third_party"
+      },
+      {
+        "instance_id": "80a04fe795497b69365fbb25",
+        "segment": "Meta Platforms::Reality Labs",
+        "relation_family": "product_transition",
+        "category": "product_transition",
+        "polarity": "negative",
+        "strength": "medium",
+        "confidence": 1.0,
+        "persistence_hint": false,
+        "weight": -0.6,
+        "source_text_sha256": "cbb762ac57a530ada015566e0e768cc292156d9d50b450858a46d68cad10532a",
+        "source_text_char_count": 174,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "085e80a6cfa734fc0f1b22c8",
+          "10398a0caf4aadd01fbf63d8",
+          "19552d8e8bdda2c8b58e12f5",
+          "27b07e421ac738084d9863fb",
+          "4e2bb988b62c78ff259c7957",
+          "7460ea26da44ded487e1c17d",
+          "76629dc0e9fe6db5b41ddcdd",
+          "8d40fb38aca52406c673ddf3",
+          "95e4cd6370e5c9e39086474b",
+          "a7effe6d84be34b97e8427fc",
+          "ae2507dfaca1b8d44b2b349e",
+          "af7458d4250de09e7b63da27",
+          "c487f68042aa24e538ecfbfb",
+          "d521ed21303fcc31c016ff46",
+          "db545334c7d33e211f78e802",
+          "df8e574eebc6156f4f9dba17",
+          "fff18fa63dcf10674747d03f"
+        ],
+        "release_status": "quote_withheld_third_party"
+      }
+    ],
+    "unknown": [
+      {
+        "instance_id": "44c5d689b658435aa2118202",
+        "segment": "unknown",
+        "relation_family": "geopolitics",
+        "category": "geopolitics",
+        "polarity": "negative",
+        "strength": "medium",
+        "confidence": 1.0,
+        "persistence_hint": false,
+        "weight": -0.6,
+        "source_text_sha256": "ca0343b531f16cd9a0007d9803fb1b278cd57a1f30e63f4a3559ca1136bbd444",
+        "source_text_char_count": 160,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "0615e32af0358614b135448a",
+          "1798823b91dc0efdd89407d5",
+          "1a44ccd3562dc7b287b3f136",
+          "2cdadcf724c69305a72e8843",
+          "377c1852279963dd27a35858",
+          "6db098fcaebec504d18ac4c9",
+          "922b935f56df14ebf50b200e",
+          "95e4cd6370e5c9e39086474b",
+          "9e878e9d370463d5e3476c0e",
+          "da4e38a16c4cdfdc1143610f",
+          "eb75abc5400a0e955b7b9379",
+          "f13c313f7be78ba668abd4e6"
+        ],
+        "release_status": "quote_withheld_third_party"
+      }
+    ]
+  },
+  "source_text_policy": "quote_withheld_third_party"
+}

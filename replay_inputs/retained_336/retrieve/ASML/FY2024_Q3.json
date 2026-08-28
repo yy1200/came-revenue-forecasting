@@ -1,0 +1,52 @@
+{
+  "schema_version": "came_quote_free_typed_retrieval_v1",
+  "ticker": "ASML",
+  "quarter_observed": "FY2024_Q2",
+  "affected_quarter": "FY2024_Q3",
+  "segment_shares_base_raw": {
+    "ASML Holding::Net System Sales": 0.7643312101910829,
+    "ASML Holding::Installed Base Management": 0.2356687898089172
+  },
+  "segment_shares_base_canonical": {
+    "ASML Holding::Net System Sales": 0.7643312101910829,
+    "ASML Holding::Installed Base Management": 0.2356687898089172
+  },
+  "cards_by_segment": {
+    "ASML Holding::Net System Sales": [
+      {
+        "instance_id": "61cb7fda2acf253c3a82c404",
+        "segment": "ASML Holding::Net System Sales",
+        "relation_family": "demand",
+        "category": "demand",
+        "polarity": "positive",
+        "strength": "high",
+        "confidence": 0.95,
+        "persistence_hint": true,
+        "weight": 0.95,
+        "source_text_sha256": "cc3825f4df39dc7c8d4d3ac12d1c0f71e88a44a82a93de442255915d67f355ea",
+        "source_text_char_count": 127,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "1798823b91dc0efdd89407d5",
+          "1ca7b800667e9ff443f9d07c",
+          "4e4e24ed1b9047d823fad612",
+          "4eaae623bac3f85e964a4dac",
+          "4f3bc0ecb632a5fd4159ecbd",
+          "6a33242904d7afc79626f0c0",
+          "8258657e013540034e4149ff",
+          "85f0c58238850c04e9960b82",
+          "a65cad3e0af55e6b844eef3c",
+          "a8e2b6ce8274e900cb5f87ab",
+          "af446583f6b5087d60e4a33c",
+          "af7458d4250de09e7b63da27",
+          "da5c6df5851d81d520a79950",
+          "eaa6eb1f0ade3a9913cf1dad",
+          "eafa9545cc5e5d4e23a85f82"
+        ],
+        "release_status": "quote_withheld_third_party"
+      }
+    ],
+    "ASML Holding::Installed Base Management": []
+  },
+  "source_text_policy": "quote_withheld_third_party"
+}

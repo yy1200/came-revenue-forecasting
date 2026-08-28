@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Direct same-task revenue forecast response",
+  "type": "object",
+  "properties": {
+    "fiscal_quarter": {
+      "type": "string",
+      "minLength": 1
+    },
+    "pred_revenue": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "fiscal_quarter",
+    "pred_revenue"
+  ],
+  "additionalProperties": false
+}

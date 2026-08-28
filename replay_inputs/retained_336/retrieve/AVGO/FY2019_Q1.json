@@ -1,0 +1,10 @@
+{
+  "schema_version": "came_quote_free_typed_retrieval_v1",
+  "ticker": "AVGO",
+  "quarter_observed": "FY2018_Q4",
+  "affected_quarter": "FY2019_Q1",
+  "segment_shares_base_raw": {},
+  "segment_shares_base_canonical": {},
+  "cards_by_segment": {},
+  "source_text_policy": "quote_withheld_third_party"
+}

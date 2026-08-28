@@ -1,0 +1,123 @@
+{
+  "schema_version": "came_quote_free_typed_retrieval_v1",
+  "ticker": "ORCL",
+  "quarter_observed": "FY2021_Q4",
+  "affected_quarter": "FY2022_Q1",
+  "segment_shares_base_raw": {
+    "Oracle::Cloud services and license support": 0.7190877540902331,
+    "Oracle::Cloud license and on-premise license": 0.126524541398116,
+    "Oracle::Hardware": 0.0813088745661874,
+    "Oracle::Services": 0.07307882994546357
+  },
+  "segment_shares_base_canonical": {
+    "Oracle::Cloud services and license support": 0.7190877540902331,
+    "Oracle::Cloud license and on-premise license": 0.126524541398116,
+    "Oracle::Hardware": 0.0813088745661874,
+    "Oracle::Services": 0.07307882994546357
+  },
+  "cards_by_segment": {
+    "Oracle::Cloud services and license support": [
+      {
+        "instance_id": "dc00c1e758a8869c080bf89c",
+        "segment": "Oracle::Cloud services and license support",
+        "relation_family": "demand",
+        "category": "demand",
+        "polarity": "positive",
+        "strength": "high",
+        "confidence": 1.0,
+        "persistence_hint": false,
+        "weight": 1.0,
+        "source_text_sha256": "ce1efb133549870222d0ad5b72a2bf3da665fd798f8ba4e81888b24d14a3b42a",
+        "source_text_char_count": 186,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "1798823b91dc0efdd89407d5",
+          "194c6f55ac277a47e609da94",
+          "196c813a5d592a127917d0e4",
+          "54a9ea8d5b42aaedbb7b42e8",
+          "54f7df90bdfd2c9ec65e5ace",
+          "57eb086635ec6bd370e91133",
+          "660a0a1d22c74f69e6422a73",
+          "81fae4fa2e512053abf38b9d",
+          "95e4cd6370e5c9e39086474b",
+          "969fa6b835a7752b04a2d8bb",
+          "97f8130b835bd2f6e245f98b",
+          "a169a7ecb7ff2f536f0099ba",
+          "a6f5be146a3edece6ea204b2",
+          "ab2914df6a0522e12353042e",
+          "af7458d4250de09e7b63da27",
+          "b41fa7626178628c9a1ca89a",
+          "b7651c1cff77777642fd0d12",
+          "d434e9d76d87676e00ce00be",
+          "f9fb15b726f5fb6358c56882"
+        ],
+        "release_status": "quote_withheld_third_party"
+      },
+      {
+        "instance_id": "8064dede4e6b080aff63b643",
+        "segment": "Oracle::Cloud services and license support",
+        "relation_family": "demand",
+        "category": "product_transition",
+        "polarity": "positive",
+        "strength": "medium",
+        "confidence": 1.0,
+        "persistence_hint": false,
+        "weight": 0.6,
+        "source_text_sha256": "70ba03f46ce564e22afa8e7ce911f36a6eb807c10d2cc7e0cbf5fab78affd9db",
+        "source_text_char_count": 148,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "1798823b91dc0efdd89407d5",
+          "196c813a5d592a127917d0e4",
+          "27b07e421ac738084d9863fb",
+          "2ea406a287778b6a7b3dbe53",
+          "3502815192a48abcd2197664",
+          "4b35df361cb401388f0a5fcc",
+          "54a9ea8d5b42aaedbb7b42e8",
+          "57eb086635ec6bd370e91133",
+          "59d51cdd313f43559673b7ed",
+          "8258657e013540034e4149ff",
+          "88acaccb2be8541b026de670",
+          "a6f5be146a3edece6ea204b2",
+          "ad7d15f6ce7183b452da613b",
+          "af7458d4250de09e7b63da27",
+          "b72a9bbaf5848d4252352ccf",
+          "bd3a23af6b27bdb8e6fd127c"
+        ],
+        "release_status": "quote_withheld_third_party"
+      },
+      {
+        "instance_id": "2b7dd1ff571ffdd16e6d8276",
+        "segment": "Oracle::Cloud services and license support",
+        "relation_family": "revenue_boost",
+        "category": "other",
+        "polarity": "positive",
+        "strength": "medium",
+        "confidence": 0.9,
+        "persistence_hint": true,
+        "weight": 0.54,
+        "source_text_sha256": "f7309e040a69584b539440d4a9d6c837f30520b7b4a886b10e5ff9947df8a9c9",
+        "source_text_char_count": 152,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "1798823b91dc0efdd89407d5",
+          "3031ed14ea824f032bf4ed50",
+          "3aa316d7a5d2b745d38e2ef9",
+          "57142aada3a29e73ab77bd30",
+          "73bbd76aae82df5ad61b499b",
+          "7ab8249e85fa1788bfd12438",
+          "8ac0ddd7bf6b0174ac5ed721",
+          "9d9b3c682ba9f2ddbbf73cea",
+          "a76cd0d43d96ef5024e1b870",
+          "af7458d4250de09e7b63da27",
+          "ba374402b6eb379872a935ec"
+        ],
+        "release_status": "quote_withheld_third_party"
+      }
+    ],
+    "Oracle::Cloud license and on-premise license": [],
+    "Oracle::Hardware": [],
+    "Oracle::Services": []
+  },
+  "source_text_policy": "quote_withheld_third_party"
+}

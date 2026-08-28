@@ -1,0 +1,145 @@
+{
+  "schema_version": "came_quote_free_typed_retrieval_v1",
+  "ticker": "MSFT",
+  "quarter_observed": "FY2025_Q3",
+  "affected_quarter": "FY2025_Q4",
+  "segment_shares_base_raw": {
+    "Microsoft::Productivity and Business Processes": 0.42736848114634773,
+    "Microsoft::Intelligent Cloud": 0.381797162675192,
+    "Microsoft::More Personal Computing": 0.1908343561784603
+  },
+  "segment_shares_base_canonical": {
+    "Microsoft::Productivity and Business Processes": 0.42736848114634773,
+    "Microsoft::Intelligent Cloud": 0.381797162675192,
+    "Microsoft::More Personal Computing": 0.1908343561784603
+  },
+  "cards_by_segment": {
+    "Microsoft::Intelligent Cloud": [
+      {
+        "instance_id": "c43017081eee1f44104aff2c",
+        "segment": "Microsoft::Intelligent Cloud",
+        "relation_family": "demand",
+        "category": "demand",
+        "polarity": "positive",
+        "strength": "high",
+        "confidence": 0.95,
+        "persistence_hint": false,
+        "weight": 0.95,
+        "source_text_sha256": "41d5e12bc8ef41eae1d4a0582e8b8ba1ce22e10bae3cda71e11f66c6be6f7df8",
+        "source_text_char_count": 157,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "0b70a6997e55f72c96f0d73f",
+          "1345fd6f683cd5256ad14dfd",
+          "1b2ce7fc550faeaabbefbbc6",
+          "533a85b0fbc8894c4b6f31c7",
+          "5dca8fc843392af52d83a97c",
+          "80727a33d1231875d760a429",
+          "8616a9da814290df1719143f",
+          "8e64c6c4af4f5c612cf93fe9",
+          "8f61c372148a470d3e829636",
+          "af7458d4250de09e7b63da27",
+          "be031e18ad8564a28f13881b",
+          "beae44e8751f820537694870",
+          "da5c6df5851d81d520a79950",
+          "ee880e9d08aec4470f679193",
+          "f2642efa125fb3de91e3b7f2"
+        ],
+        "release_status": "quote_withheld_third_party"
+      },
+      {
+        "instance_id": "210f89b4aa5ca40d1e04f09e",
+        "segment": "Microsoft::Intelligent Cloud",
+        "relation_family": "supply",
+        "category": "supply",
+        "polarity": "negative",
+        "strength": "medium",
+        "confidence": 0.95,
+        "persistence_hint": true,
+        "weight": -0.57,
+        "source_text_sha256": "0050d25ad1694badf57e73b7c8aa6c5da70eb919c78967c98c7d0ef53e13ffde",
+        "source_text_char_count": 192,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "10a58587ef77d4fe5d611174",
+          "2ea406a287778b6a7b3dbe53",
+          "359fd1950fbadf2048f6d564",
+          "3da10e1342171bd75e06da91",
+          "469375107b0244d74c1351f8",
+          "533a85b0fbc8894c4b6f31c7",
+          "54f7df90bdfd2c9ec65e5ace",
+          "5593edc2f3d09fa6156473e9",
+          "714e0a2400c1371fa7d30808",
+          "7ef45fc4ac8a3a23ff14456c",
+          "855dd8ed61de025339ae6471",
+          "95e4cd6370e5c9e39086474b",
+          "ac0c5b0ef09906431d26aa3b",
+          "af86f8003fd7e6a00c30e344",
+          "b491612bb165d50caecb32f4",
+          "d1812426e982eb7d9b393955",
+          "e3ec72379bff4e3b45a0d3e6",
+          "f49ff5a77b873fad5378c94a"
+        ],
+        "release_status": "quote_withheld_third_party"
+      },
+      {
+        "instance_id": "093a2e2bdb57e5860974fb06",
+        "segment": "Microsoft::Intelligent Cloud",
+        "relation_family": "demand",
+        "category": "demand",
+        "polarity": "negative",
+        "strength": "medium",
+        "confidence": 0.9,
+        "persistence_hint": true,
+        "weight": -0.54,
+        "source_text_sha256": "8c5a9a2f85273cc585dff442a41721a32891e6251c847860a4c194e92bea97e8",
+        "source_text_char_count": 47,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "2febc30399c6111e1cce227e",
+          "68c2409cbc03f4cea8504ed9",
+          "af7458d4250de09e7b63da27",
+          "b645ecebd749c422a4ebaba9",
+          "cacbef17f560c008ae87d038",
+          "eecb364ebf37f5caad94aed1",
+          "fbfecee712634655e1587cbb"
+        ],
+        "release_status": "quote_withheld_third_party"
+      }
+    ],
+    "Microsoft::More Personal Computing": [
+      {
+        "instance_id": "a1b52e9e98360fdd21186e5c",
+        "segment": "Microsoft::More Personal Computing",
+        "relation_family": "inventory",
+        "category": "inventory",
+        "polarity": "negative",
+        "strength": "medium",
+        "confidence": 0.9,
+        "persistence_hint": true,
+        "weight": -0.54,
+        "source_text_sha256": "437188c8d212311f83b9275b02ea7485c61744fe2e5ce4399ea685dfe2bcfd92",
+        "source_text_char_count": 108,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "1798823b91dc0efdd89407d5",
+          "2ee2355fafc3252d794bb228",
+          "3422a4d331b6f67728361eda",
+          "377c1852279963dd27a35858",
+          "4e61e86b749d8cb714ef9990",
+          "56429bbc76db4abef042b0e9",
+          "5bd726bf1b055041e4622111",
+          "95e4cd6370e5c9e39086474b",
+          "aef14b6c1067ee09500ebdc6",
+          "cacbef17f560c008ae87d038",
+          "ecbd2f0ea1180ccad68136ef",
+          "eeec6e8834130fcd4bac1b69",
+          "f7c85cfd1486694942146130"
+        ],
+        "release_status": "quote_withheld_third_party"
+      }
+    ],
+    "Microsoft::Productivity and Business Processes": []
+  },
+  "source_text_policy": "quote_withheld_third_party"
+}

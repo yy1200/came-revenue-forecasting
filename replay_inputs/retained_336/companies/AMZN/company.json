@@ -1,0 +1,7 @@
+{
+  "company_name": "AMZN",
+  "ticker": "AMZN",
+  "data_paths": {
+    "forecast_dataset_csv": "replay_inputs/retained_336/companies/AMZN/forecast_dataset.csv"
+  }
+}

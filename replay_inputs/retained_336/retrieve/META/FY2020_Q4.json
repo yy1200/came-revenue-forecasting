@@ -1,0 +1,136 @@
+{
+  "schema_version": "came_quote_free_typed_retrieval_v1",
+  "ticker": "META",
+  "quarter_observed": "FY2020_Q3",
+  "affected_quarter": "FY2020_Q4",
+  "segment_shares_base_raw": {
+    "Meta Platforms::Advertising": 0.988402421984164,
+    "Meta Platforms::Other Revenue": 0.01159757801583605
+  },
+  "segment_shares_base_canonical": {
+    "Meta Platforms::Advertising": 0.988402421984164,
+    "Meta Platforms::Other Revenue": 0.01159757801583605
+  },
+  "cards_by_segment": {
+    "Meta Platforms::Family Of Apps": [
+      {
+        "instance_id": "abdab315c7fde15e6419984f",
+        "segment": "Meta Platforms::Family Of Apps",
+        "relation_family": "demand",
+        "category": "demand",
+        "polarity": "positive",
+        "strength": "high",
+        "confidence": 1.0,
+        "persistence_hint": false,
+        "weight": 1.0,
+        "source_text_sha256": "39342adc5e988a1a34b27d5670c56fc0c753a099d1941bf604ce3b3e5e4a77ad",
+        "source_text_char_count": 165,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "03259f2cec5e73f7928fbf2f",
+          "085e80a6cfa734fc0f1b22c8",
+          "1798823b91dc0efdd89407d5",
+          "533a85b0fbc8894c4b6f31c7",
+          "6a33242904d7afc79626f0c0",
+          "8d40fb38aca52406c673ddf3",
+          "95e4cd6370e5c9e39086474b",
+          "99a520b004380155e93c1871",
+          "da6bdc6217d654d330c92f89",
+          "e2d1b144d8a36bc248a3157c"
+        ],
+        "release_status": "quote_withheld_third_party"
+      },
+      {
+        "instance_id": "ec41d66c7502a26e91ebdc1a",
+        "segment": "Meta Platforms::Family Of Apps",
+        "relation_family": "demand",
+        "category": "demand",
+        "polarity": "positive",
+        "strength": "high",
+        "confidence": 0.95,
+        "persistence_hint": false,
+        "weight": 0.95,
+        "source_text_sha256": "436227c5a9820fad404a02cdea03eb1a285ddddb98bb3f06ffcba268d2e00d8e",
+        "source_text_char_count": 221,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "1345fd6f683cd5256ad14dfd",
+          "1798823b91dc0efdd89407d5",
+          "1841bb38bc9efa9e5b1e7c65",
+          "2b26f45194b12788b74d37f4",
+          "32292cbef1812b3c2cf5ff9b",
+          "33dfb86f9d3c5b9f578e7e9a",
+          "4b4cec092356ace33822ab7d",
+          "533a85b0fbc8894c4b6f31c7",
+          "660a0a1d22c74f69e6422a73",
+          "6a33242904d7afc79626f0c0",
+          "7e7f3ff36ac4f164bc83c146",
+          "7ef45fc4ac8a3a23ff14456c",
+          "9331f2a867f8f7baf36e7266",
+          "c69e6a6cf3ad4cb32c47f7ca",
+          "da6bdc6217d654d330c92f89",
+          "e6e83665982b4ed4ccbfbcb6",
+          "ee3b127dd6784508df0947f1"
+        ],
+        "release_status": "quote_withheld_third_party"
+      }
+    ],
+    "Meta Platforms::Reality Labs": [
+      {
+        "instance_id": "8984ead3aab354c8697e9154",
+        "segment": "Meta Platforms::Reality Labs",
+        "relation_family": "supply",
+        "category": "supply",
+        "polarity": "positive",
+        "strength": "high",
+        "confidence": 0.9,
+        "persistence_hint": false,
+        "weight": 0.9,
+        "source_text_sha256": "da3c3552d1c33884304554841c95f23c2ee75ceee28c0c5dbe8114938318b46e",
+        "source_text_char_count": 118,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "184c4a81103c0fce3dce9284",
+          "296cc433b1850a0b4b1b89e1",
+          "359748b8c3145499e1dbf408",
+          "6beaa50f777a838fd2bb9c34",
+          "7460ea26da44ded487e1c17d",
+          "76629dc0e9fe6db5b41ddcdd",
+          "95e4cd6370e5c9e39086474b",
+          "9b4b7386e62218dbccdace24",
+          "a76cd0d43d96ef5024e1b870",
+          "af7458d4250de09e7b63da27",
+          "e12857d6baf180710d33fa19",
+          "e86d92063debda50cff434ac"
+        ],
+        "release_status": "quote_withheld_third_party"
+      },
+      {
+        "instance_id": "1342bce2868453b1268390e6",
+        "segment": "Meta Platforms::Reality Labs",
+        "relation_family": "demand",
+        "category": "demand",
+        "polarity": "positive",
+        "strength": "medium",
+        "confidence": 1.0,
+        "persistence_hint": false,
+        "weight": 0.6,
+        "source_text_sha256": "236886317552e115525a184a2415d872d74df8cd06bdb54ee5c92c7b3fb381da",
+        "source_text_char_count": 89,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "17c4fbecde41a8cc86673318",
+          "569ddf5e2d50f7d1d82efe42",
+          "6a33242904d7afc79626f0c0",
+          "73ce49d3244b274f6907bcb3",
+          "8d108d1df2c23bc0850680e8",
+          "af446583f6b5087d60e4a33c",
+          "b1219a7acf7345ed8c2f6be1",
+          "d7813ac008941f7f5cb36385"
+        ],
+        "release_status": "quote_withheld_third_party"
+      }
+    ]
+  },
+  "source_text_policy": "quote_withheld_third_party"
+}

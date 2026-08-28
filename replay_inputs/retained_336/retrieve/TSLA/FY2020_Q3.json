@@ -1,0 +1,143 @@
+{
+  "schema_version": "came_quote_free_typed_retrieval_v1",
+  "ticker": "TSLA",
+  "quarter_observed": "FY2020_Q2",
+  "affected_quarter": "FY2020_Q3",
+  "segment_shares_base_raw": {
+    "Tesla::Automotive Sales": 0.8105124402702257,
+    "Tesla::Automotive Regulatory Credits": 0.01828966880869995,
+    "Tesla::Energy Generation And Storage": 0.037238424781677375,
+    "Tesla::Services And Other": 0.0996869335969682,
+    "Tesla::Automotive Leasing": 0.034272532542428735
+  },
+  "segment_shares_base_canonical": {
+    "Tesla::Automotive Sales": 0.8105124402702257,
+    "Tesla::Automotive Regulatory Credits": 0.01828966880869995,
+    "Tesla::Energy Generation And Storage": 0.037238424781677375,
+    "Tesla::Services And Other": 0.0996869335969682,
+    "Tesla::Automotive Leasing": 0.034272532542428735
+  },
+  "cards_by_segment": {
+    "unknown": [
+      {
+        "instance_id": "ff27d9081399baa985cabec5",
+        "segment": "unknown",
+        "relation_family": "supply",
+        "category": "supply",
+        "polarity": "negative",
+        "strength": "high",
+        "confidence": 0.99,
+        "persistence_hint": true,
+        "weight": -0.99,
+        "source_text_sha256": "280e7c1e1ee52e2d6d5970b5e7f8d541bcc6bf83dbe6ba78a6d6d622ee7985ca",
+        "source_text_char_count": 74,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "15bdb690874eb12f3e0023e8",
+          "1798823b91dc0efdd89407d5",
+          "43c85c58b0bc3b386a9aaffe",
+          "c50252c2e632db21f60ba1f7",
+          "c610f9b020e192d1f09a9d11",
+          "d89f0368c412dbd6f34cc6c9",
+          "d8f4c663726b002b5d94e346",
+          "e7d97d010f18cd32cd79447b"
+        ],
+        "release_status": "quote_withheld_third_party"
+      },
+      {
+        "instance_id": "a169ca57142f6c5bf92163ef",
+        "segment": "unknown",
+        "relation_family": "supply",
+        "category": "supply",
+        "polarity": "positive",
+        "strength": "high",
+        "confidence": 0.95,
+        "persistence_hint": true,
+        "weight": 0.95,
+        "source_text_sha256": "63856de23abfce68071807fdf88bd9a39981941ca324cf726e5259927a593969",
+        "source_text_char_count": 92,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "1798823b91dc0efdd89407d5",
+          "25243c4235a7fed940d64793",
+          "2febc30399c6111e1cce227e",
+          "52cef58d5113595e53ad5310",
+          "767b11f811d563a04d9846e2",
+          "8886dab3573e1e03afc0314a",
+          "8ea8301b8411699d274d39c9",
+          "aeff76e680fdf84e8f0a96a2",
+          "ceac38bedaf6eef4d825ec6f",
+          "e032fc01a7aaa84c461408f1",
+          "edddfe3b6c387dc84ae3d49c"
+        ],
+        "release_status": "quote_withheld_third_party"
+      },
+      {
+        "instance_id": "b46c205671dba73ffb7639cc",
+        "segment": "unknown",
+        "relation_family": "product_transition",
+        "category": "product_transition",
+        "polarity": "positive",
+        "strength": "medium",
+        "confidence": 0.9,
+        "persistence_hint": false,
+        "weight": 0.54,
+        "source_text_sha256": "590283fa8d3fdb6cdcc9f11c38d61e348f482a89b89dff48bd49f24f6e479d74",
+        "source_text_char_count": 121,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "10e95bf4911324555d4652ef",
+          "1798823b91dc0efdd89407d5",
+          "2e9ab3f5f75e1f22267a180d",
+          "2ea406a287778b6a7b3dbe53",
+          "3281093104a13fb448ae9f50",
+          "6bdadd3e11cee4d19d13bb23",
+          "87c7c5735065095c67afc80c",
+          "95e4cd6370e5c9e39086474b",
+          "9bf670e65464b1636827a6fc",
+          "bdf9587c1c43b93e306b5221",
+          "d2405ce326ec54a8dcae4fb4",
+          "df8e574eebc6156f4f9dba17"
+        ],
+        "release_status": "quote_withheld_third_party"
+      }
+    ],
+    "Tesla::Automotive Sales": [
+      {
+        "instance_id": "67d24a73499dcb73f6e9f77c",
+        "segment": "Tesla::Automotive Sales",
+        "relation_family": "demand",
+        "category": "demand",
+        "polarity": "positive",
+        "strength": "high",
+        "confidence": 0.95,
+        "persistence_hint": true,
+        "weight": 0.95,
+        "source_text_sha256": "66a59171b6b63ef65344febb7f8b44f72dda0e6bcfcf735fcede68c1fc5adb01",
+        "source_text_char_count": 96,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "1798823b91dc0efdd89407d5",
+          "2e036c719be29deb15ba5283",
+          "4d203baf5076d18f8c6225c7",
+          "4f3bc0ecb632a5fd4159ecbd",
+          "8d1e2bd2df2d87e977fde2c1",
+          "9143f12b3382242072e1ace8",
+          "97b96ac275f01d7669e3d05c",
+          "983417f7dc33e53621863c7e",
+          "a18b18a6c75cc661fa5cd13f",
+          "ae6c2cb59fd24d9f16c40d03",
+          "bc33eae859a9af97394eda89",
+          "e9735e31430ac0cb0641ddd9",
+          "f25af4e486b99288c978c398"
+        ],
+        "release_status": "quote_withheld_third_party"
+      }
+    ],
+    "Tesla::Automotive Leasing": [],
+    "Tesla::Automotive Regulatory Credits": [],
+    "Tesla::Energy Generation And Storage": [],
+    "Tesla::Services And Other": []
+  },
+  "source_text_policy": "quote_withheld_third_party"
+}

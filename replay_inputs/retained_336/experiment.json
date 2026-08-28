@@ -1,0 +1,114 @@
+{
+  "experiment_name": "came_retained_336_quote_free_post_extraction_replay",
+  "default_end_fq": "FY2025_Q4",
+  "companies": [
+    {
+      "ticker": "AAPL",
+      "company_config": "replay_inputs/retained_336/companies/AAPL/company.json",
+      "evaluation_start_fq": "FY2019_Q1",
+      "evaluation_end_fq": "FY2025_Q4",
+      "internal_attribution_csv": "replay_inputs/retained_336/companies/AAPL/internal_attribution.csv",
+      "stat_baseline_predictions_csv": "replay_inputs/retained_336/companies/AAPL/stat_anchor_candidates.csv",
+      "stat_baseline_metrics_csv": "replay_inputs/retained_336/companies/AAPL/stat_anchor_metrics.csv"
+    },
+    {
+      "ticker": "NVDA",
+      "company_config": "replay_inputs/retained_336/companies/NVDA/company.json",
+      "evaluation_start_fq": "FY2019_Q1",
+      "evaluation_end_fq": "FY2025_Q4",
+      "internal_attribution_csv": "replay_inputs/retained_336/companies/NVDA/internal_attribution.csv",
+      "stat_baseline_predictions_csv": "replay_inputs/retained_336/companies/NVDA/stat_anchor_candidates.csv",
+      "stat_baseline_metrics_csv": "replay_inputs/retained_336/companies/NVDA/stat_anchor_metrics.csv"
+    },
+    {
+      "ticker": "AVGO",
+      "company_config": "replay_inputs/retained_336/companies/AVGO/company.json",
+      "evaluation_start_fq": "FY2019_Q1",
+      "evaluation_end_fq": "FY2025_Q4",
+      "internal_attribution_csv": "replay_inputs/retained_336/companies/AVGO/internal_attribution.csv",
+      "stat_baseline_predictions_csv": "replay_inputs/retained_336/companies/AVGO/stat_anchor_candidates.csv",
+      "stat_baseline_metrics_csv": "replay_inputs/retained_336/companies/AVGO/stat_anchor_metrics.csv"
+    },
+    {
+      "ticker": "AMZN",
+      "company_config": "replay_inputs/retained_336/companies/AMZN/company.json",
+      "evaluation_start_fq": "FY2019_Q1",
+      "evaluation_end_fq": "FY2025_Q4",
+      "internal_attribution_csv": "replay_inputs/retained_336/companies/AMZN/internal_attribution.csv",
+      "stat_baseline_predictions_csv": "replay_inputs/retained_336/companies/AMZN/stat_anchor_candidates.csv",
+      "stat_baseline_metrics_csv": "replay_inputs/retained_336/companies/AMZN/stat_anchor_metrics.csv"
+    },
+    {
+      "ticker": "ASML",
+      "company_config": "replay_inputs/retained_336/companies/ASML/company.json",
+      "evaluation_start_fq": "FY2019_Q1",
+      "evaluation_end_fq": "FY2025_Q4",
+      "internal_attribution_csv": "replay_inputs/retained_336/companies/ASML/internal_attribution.csv",
+      "stat_baseline_predictions_csv": "replay_inputs/retained_336/companies/ASML/stat_anchor_candidates.csv",
+      "stat_baseline_metrics_csv": "replay_inputs/retained_336/companies/ASML/stat_anchor_metrics.csv"
+    },
+    {
+      "ticker": "GOOGL",
+      "company_config": "replay_inputs/retained_336/companies/GOOGL/company.json",
+      "evaluation_start_fq": "FY2019_Q1",
+      "evaluation_end_fq": "FY2025_Q4",
+      "internal_attribution_csv": "replay_inputs/retained_336/companies/GOOGL/internal_attribution.csv",
+      "stat_baseline_predictions_csv": "replay_inputs/retained_336/companies/GOOGL/stat_anchor_candidates.csv",
+      "stat_baseline_metrics_csv": "replay_inputs/retained_336/companies/GOOGL/stat_anchor_metrics.csv"
+    },
+    {
+      "ticker": "INTC",
+      "company_config": "replay_inputs/retained_336/companies/INTC/company.json",
+      "evaluation_start_fq": "FY2019_Q1",
+      "evaluation_end_fq": "FY2025_Q4",
+      "internal_attribution_csv": "replay_inputs/retained_336/companies/INTC/internal_attribution.csv",
+      "stat_baseline_predictions_csv": "replay_inputs/retained_336/companies/INTC/stat_anchor_candidates.csv",
+      "stat_baseline_metrics_csv": "replay_inputs/retained_336/companies/INTC/stat_anchor_metrics.csv"
+    },
+    {
+      "ticker": "META",
+      "company_config": "replay_inputs/retained_336/companies/META/company.json",
+      "evaluation_start_fq": "FY2019_Q1",
+      "evaluation_end_fq": "FY2025_Q4",
+      "internal_attribution_csv": "replay_inputs/retained_336/companies/META/internal_attribution.csv",
+      "stat_baseline_predictions_csv": "replay_inputs/retained_336/companies/META/stat_anchor_candidates.csv",
+      "stat_baseline_metrics_csv": "replay_inputs/retained_336/companies/META/stat_anchor_metrics.csv"
+    },
+    {
+      "ticker": "MSFT",
+      "company_config": "replay_inputs/retained_336/companies/MSFT/company.json",
+      "evaluation_start_fq": "FY2019_Q1",
+      "evaluation_end_fq": "FY2025_Q4",
+      "internal_attribution_csv": "replay_inputs/retained_336/companies/MSFT/internal_attribution.csv",
+      "stat_baseline_predictions_csv": "replay_inputs/retained_336/companies/MSFT/stat_anchor_candidates.csv",
+      "stat_baseline_metrics_csv": "replay_inputs/retained_336/companies/MSFT/stat_anchor_metrics.csv"
+    },
+    {
+      "ticker": "MU",
+      "company_config": "replay_inputs/retained_336/companies/MU/company.json",
+      "evaluation_start_fq": "FY2019_Q1",
+      "evaluation_end_fq": "FY2025_Q4",
+      "internal_attribution_csv": "replay_inputs/retained_336/companies/MU/internal_attribution.csv",
+      "stat_baseline_predictions_csv": "replay_inputs/retained_336/companies/MU/stat_anchor_candidates.csv",
+      "stat_baseline_metrics_csv": "replay_inputs/retained_336/companies/MU/stat_anchor_metrics.csv"
+    },
+    {
+      "ticker": "TSLA",
+      "company_config": "replay_inputs/retained_336/companies/TSLA/company.json",
+      "evaluation_start_fq": "FY2019_Q1",
+      "evaluation_end_fq": "FY2025_Q4",
+      "internal_attribution_csv": "replay_inputs/retained_336/companies/TSLA/internal_attribution.csv",
+      "stat_baseline_predictions_csv": "replay_inputs/retained_336/companies/TSLA/stat_anchor_candidates.csv",
+      "stat_baseline_metrics_csv": "replay_inputs/retained_336/companies/TSLA/stat_anchor_metrics.csv"
+    },
+    {
+      "ticker": "ORCL",
+      "company_config": "replay_inputs/retained_336/companies/ORCL/company.json",
+      "evaluation_start_fq": "FY2019_Q1",
+      "evaluation_end_fq": "FY2025_Q4",
+      "internal_attribution_csv": "replay_inputs/retained_336/companies/ORCL/internal_attribution.csv",
+      "stat_baseline_predictions_csv": "replay_inputs/retained_336/companies/ORCL/stat_anchor_candidates.csv",
+      "stat_baseline_metrics_csv": "replay_inputs/retained_336/companies/ORCL/stat_anchor_metrics.csv"
+    }
+  ]
+}

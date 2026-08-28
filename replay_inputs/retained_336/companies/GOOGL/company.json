@@ -1,0 +1,7 @@
+{
+  "company_name": "GOOGL",
+  "ticker": "GOOGL",
+  "data_paths": {
+    "forecast_dataset_csv": "replay_inputs/retained_336/companies/GOOGL/forecast_dataset.csv"
+  }
+}

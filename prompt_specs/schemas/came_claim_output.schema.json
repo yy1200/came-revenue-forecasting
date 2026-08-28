@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CAME relation extraction ClaimOutput",
+  "type": "object",
+  "properties": {
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "head": {"type": "string"},
+          "head_type": {"enum": ["Segment", "Company", "ProductFamily", "ProductSKU", "Theme", "CustomerType", "Event"]},
+          "head_mention": {"type": "string", "default": ""},
+          "head_canon": {"type": "string", "default": ""},
+          "relation": {"enum": ["MAPS_TO_SEGMENT", "CONTRIBUTES_TO", "PURCHASES", "INCREASES_SPEND_ON", "DRIVES_DEMAND_FOR", "SUPPLIES_COMPONENTS_FOR", "CONSTRAINS_PRODUCTION_OF", "LIMITS_REVENUE_OF", "BOOSTS_REVENUE_OF", "SUPPORTS_REVENUE_OF", "PARTNERS_WITH", "COMPETES_WITH", "IS_VARIANT_OF"]},
+          "tail": {"type": "string"},
+          "tail_type": {"enum": ["Segment", "Company", "ProductFamily", "ProductSKU", "Theme", "CustomerType", "Event"]},
+          "tail_mention": {"type": "string", "default": ""},
+          "tail_canon": {"type": "string", "default": ""},
+          "quarter": {"type": "string"},
+          "evidence": {"type": "string", "description": "Verbatim sentence copied from the supplied transcript."},
+          "evidence_sentence_ids": {"type": "array", "items": {"type": "integer"}},
+          "support_type": {"enum": ["explicit", "inferred"], "default": "explicit"},
+          "confidence": {"type": "number", "default": 0.7},
+          "edge_class": {"enum": ["structural", "driver"], "default": "driver"},
+          "segment": {"type": "string", "default": "UNKNOWN"},
+          "theme": {"type": "string", "default": "other"},
+          "temporal_type": {"enum": ["Realized/Reporting", "Forecast/Guidance", "Condition/External"], "default": "Realized/Reporting"},
+          "horizon": {"enum": ["current_q", "next_q", "multi_q"], "default": "current_q"},
+          "polarity": {"enum": ["positive", "negative", "mixed", "unknown"], "default": "unknown"},
+          "strength": {"enum": ["low", "medium", "high", "unknown"], "default": "unknown"},
+          "persistence_hint": {"type": "boolean", "default": false}
+        },
+        "required": ["head", "head_type", "relation", "tail", "tail_type", "quarter", "evidence"]
+      }
+    }
+  }
+}

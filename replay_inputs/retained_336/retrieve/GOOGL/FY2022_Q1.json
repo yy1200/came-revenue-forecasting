@@ -1,0 +1,84 @@
+{
+  "schema_version": "came_quote_free_typed_retrieval_v1",
+  "ticker": "GOOGL",
+  "quarter_observed": "FY2021_Q4",
+  "affected_quarter": "FY2022_Q1",
+  "segment_shares_base_raw": {
+    "Alphabet::Google Services": 0.923830568941189,
+    "Alphabet::Google Cloud": 0.07376001703894998,
+    "Alphabet::Other Bets": 0.002409414019861026
+  },
+  "segment_shares_base_canonical": {
+    "Alphabet::Google": 0.9975905859801389,
+    "Alphabet::Other Bets": 0.002409414019861026
+  },
+  "cards_by_segment": {
+    "Alphabet::Google": [
+      {
+        "instance_id": "7693f0e4449de0db972a960a",
+        "segment": "Alphabet::Google",
+        "relation_family": "demand",
+        "category": "demand",
+        "polarity": "positive",
+        "strength": "high",
+        "confidence": 0.95,
+        "persistence_hint": false,
+        "weight": 0.95,
+        "source_text_sha256": "7a3ed46c138663ffb08af7e633fbd62bad77b2ad76a3a5d74cf1175ae2217ad9",
+        "source_text_char_count": 128,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "4993e34b79931700cb63db4e",
+          "4e61e86b749d8cb714ef9990",
+          "76629dc0e9fe6db5b41ddcdd",
+          "906d39f4b4cbb38a7e375f94",
+          "9331f2a867f8f7baf36e7266",
+          "95e4cd6370e5c9e39086474b",
+          "aa71fd5bbfcb70f8e30148a5",
+          "b77fc2c4698604312871181e",
+          "bfc798e45fb36938042c1320",
+          "cacbef17f560c008ae87d038",
+          "d0323b0f449981f1f4d3129c",
+          "f17782e4abce4a0bbcb88749"
+        ],
+        "release_status": "quote_withheld_third_party"
+      }
+    ],
+    "unknown": [
+      {
+        "instance_id": "e9826ef5e64c48829e08172c",
+        "segment": "unknown",
+        "relation_family": "macro",
+        "category": "macro",
+        "polarity": "negative",
+        "strength": "medium",
+        "confidence": 1.0,
+        "persistence_hint": true,
+        "weight": -0.6,
+        "source_text_sha256": "bf62278991d3e2972475e5ee3965e6e6b4d7554538950c819f37ecaf12f70ace",
+        "source_text_char_count": 150,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "14ce8459b7b1dc5c6e38c3c2",
+          "1798823b91dc0efdd89407d5",
+          "1c14043c5f6fda2056760925",
+          "341634c6de99afbe7e45e07e",
+          "35ea4e7e0182ab6ca9cd9456",
+          "4245c2a1dfe3511a978a985c",
+          "97ce7a6248d8c554323917e0",
+          "9bf670e65464b1636827a6fc",
+          "9d048a389a0b01628832b580",
+          "9e3be3ba60c06131d1c648d3",
+          "b3737254e4f80848508b7bc1",
+          "d92522c66cf8a0cecda9263f",
+          "df3cb1c4ad6b971d7263251d"
+        ],
+        "release_status": "quote_withheld_third_party"
+      }
+    ],
+    "Alphabet::Google Services": [],
+    "Alphabet::Google Cloud": [],
+    "Alphabet::Other Bets": []
+  },
+  "source_text_policy": "quote_withheld_third_party"
+}

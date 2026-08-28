@@ -1,0 +1,7 @@
+{
+  "company_name": "AAPL",
+  "ticker": "AAPL",
+  "data_paths": {
+    "forecast_dataset_csv": "replay_inputs/retained_336/companies/AAPL/forecast_dataset.csv"
+  }
+}

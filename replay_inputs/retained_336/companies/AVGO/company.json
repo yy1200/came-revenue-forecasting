@@ -1,0 +1,7 @@
+{
+  "company_name": "AVGO",
+  "ticker": "AVGO",
+  "data_paths": {
+    "forecast_dataset_csv": "replay_inputs/retained_336/companies/AVGO/forecast_dataset.csv"
+  }
+}

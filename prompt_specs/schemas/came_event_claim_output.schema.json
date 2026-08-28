@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CAME strict next-quarter EventClaimOutput",
+  "type": "object",
+  "properties": {
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "head": {"type": "string"},
+          "head_type": {"const": "Event", "default": "Event"},
+          "head_mention": {"type": "string", "default": ""},
+          "attr_label": {"type": "string", "default": ""},
+          "relation": {"enum": ["LIMITS_REVENUE_OF", "BOOSTS_REVENUE_OF", "SUPPORTS_REVENUE_OF"]},
+          "tail": {"type": "string"},
+          "tail_type": {"enum": ["Segment", "Company", "ProductFamily", "ProductSKU", "Theme", "CustomerType", "Event"], "default": "Segment"},
+          "tail_mention": {"type": "string", "default": ""},
+          "quarter": {"type": "string"},
+          "affected_quarter": {"type": "string", "default": ""},
+          "evidence": {"type": "string", "default": ""},
+          "evidence_sentence_ids": {"type": "array", "items": {"type": "integer"}},
+          "confidence": {"type": "number", "default": 0.7},
+          "event_category": {"enum": ["geopolitics", "macro", "regulation", "supply", "demand", "inventory", "pricing", "competition", "product_transition", "other"], "default": "other"},
+          "impact_strength": {"enum": ["high", "medium", "low", "unknown"], "default": "unknown"},
+          "attr_polarity": {"enum": ["positive", "negative", "mixed", "unknown"], "default": "unknown"},
+          "temporal_type": {"enum": ["Realized/Reporting", "Forecast/Guidance", "Condition/External"], "default": "Condition/External"},
+          "horizon": {"enum": ["current_q", "next_q", "multi_q"], "default": "next_q"},
+          "segment": {"type": "string", "default": "UNKNOWN"},
+          "theme": {"type": "string", "default": "other"},
+          "persistence_hint": {"type": "boolean", "default": false}
+        },
+        "required": ["head", "relation", "tail", "quarter"]
+      }
+    }
+  }
+}

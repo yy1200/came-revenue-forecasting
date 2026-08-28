@@ -1,0 +1,99 @@
+{
+  "schema_version": "came_prompt_specs_v3",
+  "package_date": "2026-08-27",
+  "contract_classes": {
+    "exact_executable": [
+      "executable/direct_same_task_forecast.py",
+      "executable/came_evidence_card_extraction.py",
+      "schemas/direct_revenue_forecast_response.schema.json",
+      "schemas/came_claim_output.schema.json",
+      "schemas/came_event_claim_output.schema.json"
+    ]
+  },
+  "direct_same_task_forecast": {
+    "contract_version": "identity_masked_direct_llm_v1_20260827",
+    "requested_and_returned_model": "gpt-4.1-mini-2025-04-14",
+    "backend": "official_openai",
+    "temperature": 0.0,
+    "history_policy": "expanding prior fiscal quarters beginning with FY2018_Q1 warm-up; evaluation begins FY2019_Q1",
+    "unit_policy": "billion plus the company ISO reporting currency; ASML uses EUR and the other release-panel companies use USD",
+    "history_guidance_fallback": "reuse the History-only prediction when target-quarter numeric guidance is unavailable",
+    "response_format": "strict OpenAI Chat Completions json_schema",
+    "parser": "json.loads; exact returned fiscal_quarter equality; pred_revenue converted to float and required finite and positive",
+    "recorded_runtime": {
+      "python": "3.13.5",
+      "openai_sdk": "2.29.0"
+    },
+    "source_artifact_hashes": {
+      "runner_sha256": "b6e56004b378f976ffd50dd69a8491ee38b8fd814b0c00bcab610a2cdb06de47",
+      "batch_runner_sha256": "2783ca156e8b41f2531da39f19a3e2d442690b9e472f1ce9a2c942ffd4d36795",
+      "reported_comparator_validation_sha256": "1feee8fc43481f2578c445e49b528b207a1ceb3f4a656d8a2d7716d2f01cbd6a",
+      "reported_comparator_metrics_sha256": "b701b8a715a4e4d17954e38ad4bef35a1936af29bfaa633f8634274066ae6ecd",
+      "reported_comparator_company_metrics_sha256": "3c6a836750ee36ca56bb0f570cbfb1b5f52449ed108d9d3619e326d819005cbb"
+    },
+    "reported_history_guidance_calls": 193,
+    "reported_history_fallback_rows": 143,
+    "reported_total_api_attempts": 529,
+    "reported_failures": 0,
+    "reported_retries": 0,
+    "reported_cache_reuse": 0
+  },
+  "came_evidence_card_extraction": {
+    "contract_version": "came_strict_target_quarter_driver_requests_v3",
+    "event_policy": "strict_target_quarter_causal_driver",
+    "legacy_event_policy_alias": "u0_strict_driver",
+    "requested_extraction_model_alias": "gpt-4.1-mini",
+    "served_snapshot_status": "not_uniformly_recorded_in_original_extraction_artifacts; no snapshot inferred",
+    "api_method": "OpenAI beta.chat.completions.parse",
+    "temperature_parameters": {
+      "relation_extraction": "omitted_in_source_call_provider_default",
+      "event_extraction": 0.0,
+      "event_extraction_fallback": 0.0
+    },
+    "request_variants": {
+      "relation_extraction": "system then user; Transcript (<observed_quarter>): followed by one newline; 100000-character JSON-safe document cap; response_format=ClaimOutput",
+      "event_extraction": "system then user; Transcript (<observed_quarter>): followed by two newlines; 100000-character JSON-safe document cap; response_format=EventClaimOutput",
+      "event_extraction_fallback": "triggered by LengthFinishReasonError; deterministic target-quarter context selection capped at 22000 characters; exact fallback suffix; response_format=EventClaimOutput"
+    },
+    "parser_boundary": "Pydantic response-model schemas and exact request construction are included. Separate downstream grounding, sentence matching, normalization, and deduplication implementation is outside this prompt-spec package.",
+    "schema_runtime_at_spec_export": {
+      "python": "3.13.5",
+      "openai_sdk": "2.29.0",
+      "pydantic": "2.11.7",
+      "note": "Specification-export versions; original extraction runtime versions were not uniformly recorded."
+    },
+    "source_artifact_hashes": {
+      "prompt_and_parser_sha256": "19ed987561c35f8dc2296ae3899a6711e55c598fc54a3477a53a93ffd484c963",
+      "typed_schema_sha256": "88bdae22fdf7f34ad3c9ac0fe11990755ad8ea08d62ab6d51354de7d8de38627",
+      "model_config_sha256": "4a593ea76b1e40815dec9b733567c56b12b7f242c708e34b5933883ac937a434",
+      "card_normalizer_sha256": "2168c87e89c1d99b94372f69cd90c99c20071939eccb9b52f071e36b710d9277"
+    },
+    "release_boundary": "Request builders and schemas are public; transcript text, rendered source requests, API responses, caches, and quote-bearing upstream artifacts are excluded."
+  },
+  "canonical_render_sha256": {
+    "direct_system_company_placeholder": "e71f41068b868175fe6f75693febaa752245bdfe2d045f2f5afe360b3feb2e24",
+    "direct_history_placeholders": "6debbb17ead1b0e473d22c349458377ad9781f9f76cfa128fc3501d68d5ad048",
+    "direct_history_guidance_placeholders": "9d951489fd0521b9533fb6d7f6f88f43c6df8cc9262c060d140c49688cce56aa",
+    "came_relation_placeholders": "d4e8f64b3291d389267dfc5bdea5adf978c31c9f61574e997aefea217d7c486d",
+    "came_event_strict_driver_placeholders": "64536107d1bbee73860c3c1ee25a064eacc2170ba630c96073952def91006994",
+    "came_relation_user_placeholders": "d64a1b159251317839174d8f82b47408ab16facee292a5b8efd230cf75335da7",
+    "came_event_user_placeholders": "ec075971b4b8fa78929668f8fc55e3066ee0a65e3fc27826a59ebf1dd99ff66b",
+    "came_event_strict_driver_fallback_placeholders": "a921f5181fae36cea605b15918fedda3f25d307890d9598d480bd6a876856717"
+  },
+  "files": {
+    "README.md": "341f99b14dd955f3027e04300b8c2efd3d792080462e449512c5def605a29e7d",
+    "executable/direct_same_task_forecast.py": "b37bcee9eac3c21b981581b4c022b050a981f515f546754a35a266a5a73f8108",
+    "executable/came_evidence_card_extraction.py": "0b5864f7beef2ad515cd40f40a84e3e4f3041656358586d85ab715b7578eee70",
+    "schemas/direct_revenue_forecast_response.schema.json": "3f52f34bf74e33998d9d84b8df5c2a48a73c197c6fdba2523bfe537cbee843b7",
+    "schemas/came_claim_output.schema.json": "8817f686964dd837bed232d478805233bf674d9dd386a421b9a6a2bfc39d1bbe",
+    "schemas/came_event_claim_output.schema.json": "f2f2b590cbbbf0e46bdc5649d2def7eb0262f8c5e619a28726e481f2b540e751"
+  },
+  "excluded": [
+    "API requests and responses",
+    "prompt caches",
+    "third-party source text",
+    "credentials and environment files",
+    "superseded company-specific prompt variants",
+    "relaxed event-extraction prompt variants not used by the release contract"
+  ]
+}

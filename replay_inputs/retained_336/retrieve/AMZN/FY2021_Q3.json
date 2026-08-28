@@ -1,0 +1,246 @@
+{
+  "schema_version": "came_quote_free_typed_retrieval_v1",
+  "ticker": "AMZN",
+  "quarter_observed": "FY2021_Q2",
+  "affected_quarter": "FY2021_Q3",
+  "segment_shares_base_raw": {
+    "Amazon Com::Online Stores": 0.47008312698974175,
+    "Amazon Com::Physical Stores": 0.0371241598868058,
+    "Amazon Com::Third-Party Seller Services": 0.2218340997523877,
+    "Amazon Com::Subscription Services": 0.07001238061549346,
+    "Amazon Com::Aws": 0.13096038203042093,
+    "Amazon Com::Other": 0.06998585072515033
+  },
+  "segment_shares_base_canonical": {
+    "Amazon Com::Online Stores": 0.47008312698974175,
+    "Amazon Com::Physical Stores": 0.0371241598868058,
+    "Amazon Com::Third-Party Seller Services": 0.2218340997523877,
+    "Amazon Com::Subscription Services": 0.07001238061549346,
+    "Amazon Com::Aws": 0.13096038203042093,
+    "Amazon Com::Other": 0.06998585072515033
+  },
+  "cards_by_segment": {
+    "Amazon Com::Advertising Services": [
+      {
+        "instance_id": "6710cf45d388f2dcc664b75c",
+        "segment": "Amazon Com::Advertising Services",
+        "relation_family": "product_transition",
+        "category": "product_transition",
+        "polarity": "positive",
+        "strength": "high",
+        "confidence": 0.95,
+        "persistence_hint": false,
+        "weight": 0.95,
+        "source_text_sha256": "11b6f275daf1eea1e62c39ea56b615959cac9da359860b854f0225dfa1f046a2",
+        "source_text_char_count": 153,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "085e80a6cfa734fc0f1b22c8",
+          "10ce0a84fd136cacd8b4dc5c",
+          "14ce8459b7b1dc5c6e38c3c2",
+          "1798823b91dc0efdd89407d5",
+          "35ea4e7e0182ab6ca9cd9456",
+          "4b4cec092356ace33822ab7d",
+          "4e61e86b749d8cb714ef9990",
+          "8d40fb38aca52406c673ddf3",
+          "95e4cd6370e5c9e39086474b",
+          "a76cd0d43d96ef5024e1b870",
+          "af446583f6b5087d60e4a33c",
+          "b3737254e4f80848508b7bc1",
+          "dd73a03eb38cc07ed6fcdc3f",
+          "ee3b127dd6784508df0947f1"
+        ],
+        "release_status": "quote_withheld_third_party"
+      }
+    ],
+    "Amazon Com::Online Stores": [
+      {
+        "instance_id": "fdce8b6cbe4a6fa50be4b61b",
+        "segment": "Amazon Com::Online Stores",
+        "relation_family": "demand",
+        "category": "demand",
+        "polarity": "positive",
+        "strength": "high",
+        "confidence": 0.9,
+        "persistence_hint": false,
+        "weight": 0.9,
+        "source_text_sha256": "2ab834fcdac6b7d6ec9b985957209032c4c9964b45bb8cd572211cc13917f73c",
+        "source_text_char_count": 85,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "36003a00858604e6fb6a39a4",
+          "41328a615306e6ed1fb311dc",
+          "57142aada3a29e73ab77bd30",
+          "7ef45fc4ac8a3a23ff14456c",
+          "95e4cd6370e5c9e39086474b",
+          "f49ff5a77b873fad5378c94a"
+        ],
+        "release_status": "quote_withheld_third_party"
+      },
+      {
+        "instance_id": "638024b2e6dfac1eff520e08",
+        "segment": "Amazon Com::Online Stores",
+        "relation_family": "supply",
+        "category": "supply",
+        "polarity": "positive",
+        "strength": "high",
+        "confidence": 0.9,
+        "persistence_hint": true,
+        "weight": 0.9,
+        "source_text_sha256": "ad0de27550ae542277b9dc0032c7c9595cef0fed5c9e623ea28387c54d545718",
+        "source_text_char_count": 55,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "1ff781e76191b304c1df2799",
+          "66c638565f2551c3e70aa68a",
+          "855dd8ed61de025339ae6471",
+          "99a520b004380155e93c1871",
+          "a7effe6d84be34b97e8427fc",
+          "b232ef46dac8e4b33e86c5b5"
+        ],
+        "release_status": "quote_withheld_third_party"
+      }
+    ],
+    "unknown": [
+      {
+        "instance_id": "08f935fd673567fa280982bd",
+        "segment": "unknown",
+        "relation_family": "product_transition",
+        "category": "product_transition",
+        "polarity": "positive",
+        "strength": "high",
+        "confidence": 0.9,
+        "persistence_hint": false,
+        "weight": 0.9,
+        "source_text_sha256": "8a4bdb08299cdaf2bc9fdd2126ec7bca40ad9e2db464923123f9c558b170e081",
+        "source_text_char_count": 157,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "0624a40b2871f5039c885db1",
+          "116c62f12cf2493ee0ccbe85",
+          "1328f35edf1319f94188910a",
+          "154c57a85446554ad2657b02",
+          "1798823b91dc0efdd89407d5",
+          "3e60b9626da8891a086f6e89",
+          "4f16c362803a5c3d472706cc",
+          "576e37da2aeb692f1ca85250",
+          "5caea918667edaa269cb3e00",
+          "6a4450cdb62ed84f8280d1d5",
+          "6d07d55bc8b2a150d7d445d1",
+          "868da9735cbd5d6c68d98f51",
+          "8ae59804c7f415b2f6856dd7",
+          "95e4cd6370e5c9e39086474b",
+          "a6b62109d30dbd3dd181a838",
+          "a8c8fe635180db843ba34897",
+          "b77fc2c4698604312871181e",
+          "cf88a289dbffea2123297db5",
+          "e8cde00b9fa57fb2de46550e"
+        ],
+        "release_status": "quote_withheld_third_party"
+      }
+    ],
+    "Amazon Com::Third-Party Seller Services": [
+      {
+        "instance_id": "6e0cd9e9c1cc0165d0397e62",
+        "segment": "Amazon Com::Third-Party Seller Services",
+        "relation_family": "demand",
+        "category": "demand",
+        "polarity": "positive",
+        "strength": "high",
+        "confidence": 0.9,
+        "persistence_hint": true,
+        "weight": 0.9,
+        "source_text_sha256": "eb4c0a9fdb5f034412cfec1218924f6a8da39d9fe2985694428ba0a2f5fc60a4",
+        "source_text_char_count": 175,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "0db6182d2371cbddf223f5cb",
+          "1798823b91dc0efdd89407d5",
+          "2e9ab3f5f75e1f22267a180d",
+          "36003a00858604e6fb6a39a4",
+          "41328a615306e6ed1fb311dc",
+          "42bcb87e21d7995d5f1e3ac8",
+          "54a9ea8d5b42aaedbb7b42e8",
+          "57142aada3a29e73ab77bd30",
+          "660a0a1d22c74f69e6422a73",
+          "6bae6a8c3be74b9c869982ad",
+          "7ef45fc4ac8a3a23ff14456c",
+          "8216e8e12faa2ff792ffb5a5",
+          "95e4cd6370e5c9e39086474b",
+          "a04bfde3145f63133f905a9b",
+          "af7458d4250de09e7b63da27",
+          "ecefd8a1838acba71b451c2c",
+          "f49ff5a77b873fad5378c94a",
+          "ffcc44413df3f4cb68b262c1"
+        ],
+        "release_status": "quote_withheld_third_party"
+      }
+    ],
+    "Amazon Com::Subscription Services": [
+      {
+        "instance_id": "a9283119bd4ead2d1216425f",
+        "segment": "Amazon Com::Subscription Services",
+        "relation_family": "demand",
+        "category": "demand",
+        "polarity": "positive",
+        "strength": "medium",
+        "confidence": 0.9,
+        "persistence_hint": true,
+        "weight": 0.54,
+        "source_text_sha256": "47c0cab517155d082bf6b7675d4dfd0cc96f4af39e431cf98c2759c37a9061c8",
+        "source_text_char_count": 108,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "12d60f5f194d4eb67597707b",
+          "160e4b44321321d84fc348ff",
+          "1798823b91dc0efdd89407d5",
+          "42bcb87e21d7995d5f1e3ac8",
+          "497a3be4c0cf2dc146c95744",
+          "4e924cc06d1e1648db9b42c2",
+          "8d40fb38aca52406c673ddf3",
+          "af7458d4250de09e7b63da27",
+          "c338878ef5558080e8db8711",
+          "d3e6d6a977cc37ad33a42a77",
+          "ee3b127dd6784508df0947f1",
+          "eeec6e8834130fcd4bac1b69"
+        ],
+        "release_status": "quote_withheld_third_party"
+      }
+    ],
+    "Amazon Com::Aws": [
+      {
+        "instance_id": "4251a3f90bb383dd4fad70c9",
+        "segment": "Amazon Com::Aws",
+        "relation_family": "demand",
+        "category": "demand",
+        "polarity": "positive",
+        "strength": "medium",
+        "confidence": 0.9,
+        "persistence_hint": true,
+        "weight": 0.54,
+        "source_text_sha256": "ce9483e39ded5a9e6e7467708e10c2ac35a22b08897b94a6ce3ccb470f01e47a",
+        "source_text_char_count": 117,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "1798823b91dc0efdd89407d5",
+          "401ccd0aa9345c167aee56f1",
+          "4250f3fbfa3cf451e7fc92a9",
+          "54a9ea8d5b42aaedbb7b42e8",
+          "70e2eb92e5160799ec79dbb3",
+          "8ce1a9d380af161d946cfbf4",
+          "a6f5be146a3edece6ea204b2",
+          "ae62cc20d8f9119ffc37d3a5",
+          "af7458d4250de09e7b63da27",
+          "be031e18ad8564a28f13881b",
+          "d39fb777cc91a7c7d18312ac",
+          "df55ffad8413df7305fc2901",
+          "e5f08ffc330f527120c85fc4"
+        ],
+        "release_status": "quote_withheld_third_party"
+      }
+    ],
+    "Amazon Com::Physical Stores": [],
+    "Amazon Com::Other": []
+  },
+  "source_text_policy": "quote_withheld_third_party"
+}

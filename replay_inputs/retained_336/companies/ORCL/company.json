@@ -1,0 +1,7 @@
+{
+  "company_name": "ORCL",
+  "ticker": "ORCL",
+  "data_paths": {
+    "forecast_dataset_csv": "replay_inputs/retained_336/companies/ORCL/forecast_dataset.csv"
+  }
+}

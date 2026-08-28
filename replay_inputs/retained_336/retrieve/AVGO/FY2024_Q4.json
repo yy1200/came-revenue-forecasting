@@ -1,0 +1,129 @@
+{
+  "schema_version": "came_quote_free_typed_retrieval_v1",
+  "ticker": "AVGO",
+  "quarter_observed": "FY2024_Q3",
+  "affected_quarter": "FY2024_Q4",
+  "segment_shares_base_raw": {
+    "Broadcom::Semiconductor Solutions": 0.5564565483476133,
+    "Broadcom::Infrastructure Software": 0.4435434516523868
+  },
+  "segment_shares_base_canonical": {
+    "Broadcom::Semiconductor Solutions": 0.5564565483476133,
+    "Broadcom::Infrastructure Software": 0.4435434516523868
+  },
+  "cards_by_segment": {
+    "Broadcom::Infrastructure Software": [
+      {
+        "instance_id": "149f49bad84c4f462934daad",
+        "segment": "Broadcom::Infrastructure Software",
+        "relation_family": "demand",
+        "category": "demand",
+        "polarity": "positive",
+        "strength": "high",
+        "confidence": 0.95,
+        "persistence_hint": true,
+        "weight": 0.95,
+        "source_text_sha256": "2732c51f5caccb69a79b83c7147b48b4ed404c3a2815414612e65d07081b8f3c",
+        "source_text_char_count": 38,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "8754226178d967909cae45e5",
+          "8f308565a0c5dd4dda1e1d55",
+          "900bdc1788153c8a4fa08fbe"
+        ],
+        "release_status": "quote_withheld_third_party"
+      }
+    ],
+    "Broadcom::Semiconductor Solutions": [
+      {
+        "instance_id": "6b4f0a8e90fb1fbfded41711",
+        "segment": "Broadcom::Semiconductor Solutions",
+        "relation_family": "demand",
+        "category": "demand",
+        "polarity": "positive",
+        "strength": "high",
+        "confidence": 0.95,
+        "persistence_hint": true,
+        "weight": 0.95,
+        "source_text_sha256": "4fdc8fb35459401ea855bfef053ecb2999b85c657f6b5a8c5e432eef3fc8e84b",
+        "source_text_char_count": 103,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "194c6f55ac277a47e609da94",
+          "533a85b0fbc8894c4b6f31c7",
+          "57142aada3a29e73ab77bd30",
+          "5953abb46722fcc82dc81c24",
+          "6a33242904d7afc79626f0c0",
+          "8d40fb38aca52406c673ddf3",
+          "9e936d26b6a3139dcdf8c047",
+          "af7458d4250de09e7b63da27"
+        ],
+        "release_status": "quote_withheld_third_party"
+      },
+      {
+        "instance_id": "f26289a13c5d9635d1a7aabc",
+        "segment": "Broadcom::Semiconductor Solutions",
+        "relation_family": "demand",
+        "category": "demand",
+        "polarity": "negative",
+        "strength": "high",
+        "confidence": 0.95,
+        "persistence_hint": true,
+        "weight": -0.95,
+        "source_text_sha256": "f2fbadcec66d83790156dcf04ab3041e3e65e5b2669c9d682538d03c575e7d18",
+        "source_text_char_count": 208,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "085e80a6cfa734fc0f1b22c8",
+          "1ca7b800667e9ff443f9d07c",
+          "3422a4d331b6f67728361eda",
+          "344bdedd3e3f989e1f2706b3",
+          "4d3c02b4e45a61db4cb4cf34",
+          "5953abb46722fcc82dc81c24",
+          "8d40fb38aca52406c673ddf3",
+          "94111538df7d7aff4affc1c3",
+          "a1495c6be6c2be4d9d7d78f4",
+          "ac531dce0424cf9ffd1361fe",
+          "af7458d4250de09e7b63da27",
+          "bd8567742cc0f097a0611bc5",
+          "be5d94372878c400b4f0e7de",
+          "d3709e79f02a99f5159ceba3",
+          "ebe08e69af50082d5c7faac1"
+        ],
+        "release_status": "quote_withheld_third_party"
+      }
+    ],
+    "Broadcom::Wired Infrastructure": [
+      {
+        "instance_id": "1fd83167d24824028c00657f",
+        "segment": "Broadcom::Wired Infrastructure",
+        "relation_family": "demand",
+        "category": "demand",
+        "polarity": "positive",
+        "strength": "high",
+        "confidence": 0.95,
+        "persistence_hint": true,
+        "weight": 0.95,
+        "source_text_sha256": "bea3a9c320e71274ff88e9d1258427478e878e7bf2f659d6eecac0c16c5c7163",
+        "source_text_char_count": 84,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "51493db55d287d6b79480f0c",
+          "52b951418327d5b3ef63fabf",
+          "533a85b0fbc8894c4b6f31c7",
+          "54a9ea8d5b42aaedbb7b42e8",
+          "6a33242904d7afc79626f0c0",
+          "708f09193481888f145a08a0",
+          "af7458d4250de09e7b63da27",
+          "b5a96582b464162cffe124da",
+          "d184d1ce42db1ab04cba79b8"
+        ],
+        "release_status": "quote_withheld_third_party"
+      }
+    ],
+    "Broadcom::Wireless Communications": [],
+    "Broadcom::Enterprise Storage": [],
+    "Broadcom::Industrial and Other": []
+  },
+  "source_text_policy": "quote_withheld_third_party"
+}

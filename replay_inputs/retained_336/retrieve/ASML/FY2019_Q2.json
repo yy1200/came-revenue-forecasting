@@ -1,0 +1,144 @@
+{
+  "schema_version": "came_quote_free_typed_retrieval_v1",
+  "ticker": "ASML",
+  "quarter_observed": "FY2019_Q1",
+  "affected_quarter": "FY2019_Q2",
+  "segment_shares_base_raw": {
+    "ASML Holding::Net System Sales": 0.757847533632287,
+    "ASML Holding::Installed Base Management": 0.242152466367713
+  },
+  "segment_shares_base_canonical": {
+    "ASML Holding::Net System Sales": 0.757847533632287,
+    "ASML Holding::Installed Base Management": 0.242152466367713
+  },
+  "cards_by_segment": {
+    "ASML Holding::Net System Sales": [
+      {
+        "instance_id": "267ad183b16840b0bad9bb08",
+        "segment": "ASML Holding::Net System Sales",
+        "relation_family": "demand",
+        "category": "demand",
+        "polarity": "negative",
+        "strength": "high",
+        "confidence": 1.0,
+        "persistence_hint": true,
+        "weight": -1.0,
+        "source_text_sha256": "a392c7d887d50a5006c1e816d3e688217547769a7afd53f0e23c281cab64413c",
+        "source_text_char_count": 126,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "02d08efad579425b27f70282",
+          "085e80a6cfa734fc0f1b22c8",
+          "185724d61d1ae9acf8bf2e88",
+          "3422a4d331b6f67728361eda",
+          "433d3d0929fd92500746e5ab",
+          "533a85b0fbc8894c4b6f31c7",
+          "54a9ea8d5b42aaedbb7b42e8",
+          "8cd6cfbd1b10aad6edfd142e",
+          "8ee10bd90791af124af1dab5",
+          "95e4cd6370e5c9e39086474b",
+          "a45e1868f0e539245d00f14b",
+          "a633987b58cb666c1985b98a",
+          "be031e18ad8564a28f13881b",
+          "df3cb1c4ad6b971d7263251d"
+        ],
+        "release_status": "quote_withheld_third_party"
+      },
+      {
+        "instance_id": "abef70294ec4c0d8f5a1b487",
+        "segment": "ASML Holding::Net System Sales",
+        "relation_family": "demand",
+        "category": "demand",
+        "polarity": "positive",
+        "strength": "medium",
+        "confidence": 1.0,
+        "persistence_hint": true,
+        "weight": 0.6,
+        "source_text_sha256": "e41e956c8d4e90f5594c59a58706e114457bf6395d918ff180499e662a55c5ff",
+        "source_text_char_count": 168,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "085e80a6cfa734fc0f1b22c8",
+          "1798823b91dc0efdd89407d5",
+          "297b8768affbb90f238aa903",
+          "2b62b42d3e784938b76f917a",
+          "401ccd0aa9345c167aee56f1",
+          "533a85b0fbc8894c4b6f31c7",
+          "54a9ea8d5b42aaedbb7b42e8",
+          "5953abb46722fcc82dc81c24",
+          "8ee10bd90791af124af1dab5",
+          "944dfeeeaa44ba9d8f5cdf93",
+          "95e4cd6370e5c9e39086474b",
+          "a633987b58cb666c1985b98a",
+          "a8c43409d8ab557dcf48edd9",
+          "dac86331f0d8cb3b628d0c9c"
+        ],
+        "release_status": "quote_withheld_third_party"
+      },
+      {
+        "instance_id": "6cfe8bdf558dada551c1b5f4",
+        "segment": "ASML Holding::Net System Sales",
+        "relation_family": "product_transition",
+        "category": "product_transition",
+        "polarity": "positive",
+        "strength": "medium",
+        "confidence": 1.0,
+        "persistence_hint": true,
+        "weight": 0.6,
+        "source_text_sha256": "3d24ac6233d7d91bdaeeda5dc4e48ee743caa44457f985b193b42798d76a9109",
+        "source_text_char_count": 227,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "0f98b91e373a4b248a3a3cc6",
+          "100995dd5ff15fe07461a7ab",
+          "134d3d05818c50deb32c6cec",
+          "162187e565985847202424aa",
+          "1767d026139cbd55b80a269d",
+          "1798823b91dc0efdd89407d5",
+          "19af086a3adc2900a8a9b413",
+          "2978d6d4acba5031c6ba79a5",
+          "3e5ac8e264b27be69afacf6d",
+          "433d3d0929fd92500746e5ab",
+          "473d7e08bcd396ef1a6d704f",
+          "805ac226ff9f1a1e79d8ee8d",
+          "9bf91c4bb277d7e388507032",
+          "a76cd0d43d96ef5024e1b870",
+          "b43c1dd70fa15dbb20b7626b",
+          "bb18fa45a9beaedb9e119609",
+          "bd8567742cc0f097a0611bc5",
+          "c487f68042aa24e538ecfbfb",
+          "f64235f2668904d1bf62c1a5",
+          "f8b41d4128fa0c529eed9c21"
+        ],
+        "release_status": "quote_withheld_third_party"
+      }
+    ],
+    "ASML Holding::Installed Base Management": [
+      {
+        "instance_id": "6ef494401832c06c59bec32c",
+        "segment": "ASML Holding::Installed Base Management",
+        "relation_family": "demand",
+        "category": "demand",
+        "polarity": "positive",
+        "strength": "medium",
+        "confidence": 0.95,
+        "persistence_hint": true,
+        "weight": 0.57,
+        "source_text_sha256": "1215ae12f719f447c910e64567bd643e84479ac7567fa72360fc9c70d312e389",
+        "source_text_char_count": 77,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "02d08efad579425b27f70282",
+          "0bb80b3f7a7c6f66cc570e5b",
+          "52258484aeaa45f753747415",
+          "72eccb7f49c71957319ce9dc",
+          "95e4cd6370e5c9e39086474b",
+          "c2da0b81c4e16464578d98cd",
+          "ffd88a66b0aaa50305ad64cc"
+        ],
+        "release_status": "quote_withheld_third_party"
+      }
+    ]
+  },
+  "source_text_policy": "quote_withheld_third_party"
+}

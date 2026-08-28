@@ -1,0 +1,85 @@
+{
+  "schema_version": "came_public_release_v3",
+  "canonical_repository": "https://github.com/yy1200/came-revenue-forecasting",
+  "canonical_prediction_artifact": "release_artifacts/normalized_forecast_traces.csv",
+  "release_contract": "release_artifacts/came_release_contract.json",
+  "release_boundary": "the normalized trace is the public saved-prediction authority; deterministic forecast regeneration uses replay_inputs/retained_336 and compares all runner-generated final predictions against that trace",
+  "normalized_evidence_card_rows": 1227,
+  "normalized_forecast_trace_rows": 336,
+  "panel_companies": [
+    "AAPL",
+    "AMZN",
+    "ASML",
+    "AVGO",
+    "GOOGL",
+    "INTC",
+    "META",
+    "MSFT",
+    "MU",
+    "NVDA",
+    "ORCL",
+    "TSLA"
+  ],
+  "provenance_data_dictionary": "release_artifacts/provenance_data_dictionary.json",
+  "artifact_provenance": {
+    "manifest": {
+      "public_release_status": "included_in_public_release",
+      "derived_artifact_status": "author_created_release_manifest",
+      "source_material_access_status": "not_required_for_public_post_extraction_replay",
+      "source_material_redistribution_status": "not_redistributed_no_rights_grant",
+      "verbatim_text_status": "withheld_or_absent_quote_free"
+    },
+    "normalized_evidence_cards.csv": {
+      "public_release_status": "included_in_public_release",
+      "derived_artifact_status": "author_created_derived_post_extraction_card",
+      "source_material_access_status": "not_included_mixed_public_or_provider_access",
+      "source_material_redistribution_status": "not_redistributed_no_rights_grant",
+      "verbatim_text_status": "withheld_hash_locator_only"
+    },
+    "normalized_forecast_traces.csv": {
+      "public_release_status": "included_in_public_release",
+      "derived_artifact_status": "author_created_derived_forecast_trace",
+      "source_material_access_status": "not_required_for_public_post_extraction_replay",
+      "source_material_redistribution_status": "not_redistributed_no_rights_grant",
+      "verbatim_text_status": "absent"
+    }
+  },
+  "provenance_label_counts": {
+    "normalized_evidence_cards.csv": {
+      "rows": 1227,
+      "public_release_status": "included_in_public_release",
+      "derived_artifact_status": "author_created_derived_post_extraction_card",
+      "source_material_access_status": "not_included_mixed_public_or_provider_access",
+      "source_material_redistribution_status": "not_redistributed_no_rights_grant",
+      "verbatim_text_status": "withheld_hash_locator_only"
+    },
+    "normalized_forecast_traces.csv": {
+      "rows": 336,
+      "public_release_status": "included_in_public_release",
+      "derived_artifact_status": "author_created_derived_forecast_trace",
+      "source_material_access_status": "not_required_for_public_post_extraction_replay",
+      "source_material_redistribution_status": "not_redistributed_no_rights_grant",
+      "verbatim_text_status": "absent"
+    }
+  },
+  "files": {
+    "normalized_evidence_cards.csv": {
+      "sha256": "96e10cc322782895f11173a6da802d1080b05d6404fe6fed8847a91d4aee160f"
+    },
+    "normalized_forecast_traces.csv": {
+      "sha256": "cc177542a3229eb1b452f26d2ee999ce5ecd96d4933bfaca8b714685f5b0fa9d"
+    },
+    "provenance_data_dictionary.json": {
+      "sha256": "8d860d8f0f9d1a83b3991b8f414d21a0901270264825debabdc2e88842a3a8e5"
+    },
+    "came_release_contract.json": {
+      "sha256": "be34db8ae1e346938e9109129366c66e1dfea2e9fcc54516c54c38788f4b2036"
+    },
+    "schemas/normalized_evidence_card.schema.json": {
+      "sha256": "b976586ac0515e8a473fbbdf718c9c37cd5e8dea226b4dda8e3316a55a25a5df"
+    },
+    "schemas/normalized_forecast_trace.schema.json": {
+      "sha256": "ae0eaeb65dabc3700db53b7cc070d23dd0c7179b36465709097a300ada4a1e7c"
+    }
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "schema_version": "came_quote_free_typed_retrieval_v1",
+  "ticker": "AAPL",
+  "quarter_observed": "FY2023_Q4",
+  "affected_quarter": "FY2024_Q1",
+  "segment_shares_base_raw": {
+    "Apple::iPhone": 0.4894522782632014,
+    "Apple::Mac": 0.08507452680506827,
+    "Apple::iPad": 0.071990435540459,
+    "Apple::Wearables Home and Accessories": 0.10415875215088605,
+    "Apple::Services": 0.24932400724038525
+  },
+  "segment_shares_base_canonical": {
+    "Apple::iPhone": 0.4894522782632014,
+    "Apple::Mac": 0.08507452680506827,
+    "Apple::iPad": 0.071990435540459,
+    "Apple::Wearables Home and Accessories": 0.10415875215088605,
+    "Apple::Services": 0.24932400724038525
+  },
+  "cards_by_segment": {
+    "Apple::Mac": [
+      {
+        "instance_id": "258f70ad396f60bafcf94286",
+        "segment": "Apple::Mac",
+        "relation_family": "supply",
+        "category": "supply",
+        "polarity": "negative",
+        "strength": "high",
+        "confidence": 0.95,
+        "persistence_hint": false,
+        "weight": -0.95,
+        "source_text_sha256": "4176bf226ef79adf524ef935b2d76f9b0c8246d7a7e10d4ea32dec6e52bfc78b",
+        "source_text_char_count": 196,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "028a15fa227c836e70861384",
+          "02ef92ed59ac1678ab5daaaa",
+          "085e80a6cfa734fc0f1b22c8",
+          "09b6d30c0baf0b7279703e25",
+          "15e38c561d87617635c3a6da",
+          "1798823b91dc0efdd89407d5",
+          "2d6d0a7108e7b46ff60edee2",
+          "3422a4d331b6f67728361eda",
+          "660a0a1d22c74f69e6422a73",
+          "8d40fb38aca52406c673ddf3",
+          "9f1f38355b380eb41a06886f",
+          "acd7b401b64f8bc46f83f7d9",
+          "ae2507dfaca1b8d44b2b349e",
+          "af7458d4250de09e7b63da27",
+          "b8b2af11de2624132e8b726d",
+          "bde9ada1038b4c56286ee5c2",
+          "c9b785e37cb330b2db1b2f8d",
+          "cd4b0afbb4bac6b925d9b39a",
+          "eaa6eb1f0ade3a9913cf1dad",
+          "ec8575c7408f4f8408e0ba57"
+        ],
+        "release_status": "quote_withheld_third_party"
+      },
+      {
+        "instance_id": "1787b08a28b8c3ebc6fb1c65",
+        "segment": "Apple::Mac",
+        "relation_family": "product_transition",
+        "category": "product_transition",
+        "polarity": "positive",
+        "strength": "medium",
+        "confidence": 0.9,
+        "persistence_hint": false,
+        "weight": 0.54,
+        "source_text_sha256": "7bb83047ec3f27caa70954fd240027b69d55e50faa99e5230dcb6d9217846f6b",
+        "source_text_char_count": 133,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "09b6d30c0baf0b7279703e25",
+          "0a89d90a8d13cc65d849b14a",
+          "1798823b91dc0efdd89407d5",
+          "1aa62c96d89cf9c32b2574bb",
+          "2e17b17f0d6b06dc704c8db4",
+          "3cb5d4703b5f2454451e6878",
+          "600bf6daeedddeae19e9cd3f",
+          "6b0e5ba3d6f42f337b56fe64",
+          "84596cbc5bfb0b105ef96382",
+          "8faa1cb5f89ab69bc951a5ff",
+          "95e4cd6370e5c9e39086474b",
+          "a6b62109d30dbd3dd181a838",
+          "af7458d4250de09e7b63da27",
+          "b77fc2c4698604312871181e",
+          "c601f409f6561f9af34c0288",
+          "e34bdbc654cb5a93e48c650d"
+        ],
+        "release_status": "quote_withheld_third_party"
+      }
+    ],
+    "Apple::iPhone": [
+      {
+        "instance_id": "6d627fb7f4b637e0896ae5c8",
+        "segment": "Apple::iPhone",
+        "relation_family": "supply",
+        "category": "supply",
+        "polarity": "negative",
+        "strength": "high",
+        "confidence": 0.9,
+        "persistence_hint": false,
+        "weight": -0.9,
+        "source_text_sha256": "abc08db0ce4ee9bcf7976eca8f5fc2903e824ee8f7048c8f873c3755a7107abf",
+        "source_text_char_count": 83,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "278498f2372a0345eaacd0f2",
+          "4215298627c9087eda5a9312",
+          "57f8d8a0fc91db3181217d2b",
+          "84596cbc5bfb0b105ef96382",
+          "a6b62109d30dbd3dd181a838",
+          "af7458d4250de09e7b63da27",
+          "c4983a4dea668055026d4bf5",
+          "cb99ac846bb1feaf37f53a6b",
+          "da7273d0e65d72eadfeb3581"
+        ],
+        "release_status": "quote_withheld_third_party"
+      },
+      {
+        "instance_id": "c5d4c815dbd32b5738ed4f99",
+        "segment": "Apple::iPhone",
+        "relation_family": "supply",
+        "category": "supply",
+        "polarity": "positive",
+        "strength": "medium",
+        "confidence": 0.85,
+        "persistence_hint": false,
+        "weight": 0.51,
+        "source_text_sha256": "6cace1aed723916fdf67ee0e92cb2053a3d3d2624f7f5ce4c5438dc96b291df8",
+        "source_text_char_count": 98,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "1798823b91dc0efdd89407d5",
+          "4215298627c9087eda5a9312",
+          "533a85b0fbc8894c4b6f31c7",
+          "88af6023991e618834b7888b",
+          "9a14e5dc0120f071dc75d110",
+          "9f1f38355b380eb41a06886f",
+          "a65cad3e0af55e6b844eef3c"
+        ],
+        "release_status": "quote_withheld_third_party"
+      }
+    ],
+    "Apple::iPad": [
+      {
+        "instance_id": "953fd166882ca16302c21b47",
+        "segment": "Apple::iPad",
+        "relation_family": "supply",
+        "category": "supply",
+        "polarity": "negative",
+        "strength": "medium",
+        "confidence": 0.9,
+        "persistence_hint": false,
+        "weight": -0.54,
+        "source_text_sha256": "0dc7afff0dd2feaeddf2cb4bdf47034076b52572162419b586828d514c8372eb",
+        "source_text_char_count": 127,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "085e80a6cfa734fc0f1b22c8",
+          "1798823b91dc0efdd89407d5",
+          "33f0205afb8b19280b45f3c1",
+          "3422a4d331b6f67728361eda",
+          "469375107b0244d74c1351f8",
+          "660a0a1d22c74f69e6422a73",
+          "8d40fb38aca52406c673ddf3",
+          "9f1f38355b380eb41a06886f",
+          "ae2507dfaca1b8d44b2b349e",
+          "c9b785e37cb330b2db1b2f8d",
+          "cd4b0afbb4bac6b925d9b39a",
+          "d4030164d76a136e88fd2a30",
+          "ec8575c7408f4f8408e0ba57"
+        ],
+        "release_status": "quote_withheld_third_party"
+      }
+    ],
+    "Apple::Services": [],
+    "Apple::Other Products": [],
+    "Apple::Wearables Home and Accessories": []
+  },
+  "source_text_policy": "quote_withheld_third_party"
+}

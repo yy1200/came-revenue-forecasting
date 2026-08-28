@@ -1,0 +1,200 @@
+{
+  "schema_version": "came_quote_free_typed_retrieval_v1",
+  "ticker": "META",
+  "quarter_observed": "FY2024_Q1",
+  "affected_quarter": "FY2024_Q2",
+  "segment_shares_base_raw": {
+    "Meta Platforms::Family Of Apps": 0.987930325058291,
+    "Meta Platforms::Reality Labs": 0.012069674941708956
+  },
+  "segment_shares_base_canonical": {
+    "Meta Platforms::Family Of Apps": 0.987930325058291,
+    "Meta Platforms::Reality Labs": 0.012069674941708956
+  },
+  "cards_by_segment": {
+    "Meta Platforms::Family Of Apps": [
+      {
+        "instance_id": "b346c857f154df0d1fe5769a",
+        "segment": "Meta Platforms::Family Of Apps",
+        "relation_family": "demand",
+        "category": "demand",
+        "polarity": "positive",
+        "strength": "high",
+        "confidence": 0.95,
+        "persistence_hint": true,
+        "weight": 0.95,
+        "source_text_sha256": "39853a27a1c62a09925c253cc01538d17e5c81ebde0bc8456da5cd3828082fba",
+        "source_text_char_count": 132,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "1b92c0607d970c4aa8110f30",
+          "24174cce263dbe73d509804a",
+          "433d3d0929fd92500746e5ab",
+          "4d203baf5076d18f8c6225c7",
+          "65fbe0deb7df32e6f8beb10d",
+          "745a4f0e980e1512dbfc4561",
+          "76629dc0e9fe6db5b41ddcdd",
+          "95e4cd6370e5c9e39086474b",
+          "e95baabec516ea0a46eb1ec5",
+          "ee7026e2d47b016dadecbe06",
+          "f245cad224532612c68f6bd7"
+        ],
+        "release_status": "quote_withheld_third_party"
+      },
+      {
+        "instance_id": "55b9bd5cd1ce7728b7a54d8f",
+        "segment": "Meta Platforms::Family Of Apps",
+        "relation_family": "supply",
+        "category": "supply",
+        "polarity": "positive",
+        "strength": "high",
+        "confidence": 0.9,
+        "persistence_hint": true,
+        "weight": 0.9,
+        "source_text_sha256": "012eec5d3b7a5253a4d8704f96aef784e3712ff1dbb05291270505bdd4ea4e50",
+        "source_text_char_count": 83,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "76629dc0e9fe6db5b41ddcdd",
+          "814eef6a96a3ddd7f7c36cc2",
+          "8754226178d967909cae45e5",
+          "9320d90b8f47493ca807949f",
+          "95e4cd6370e5c9e39086474b",
+          "f9fb15b726f5fb6358c56882"
+        ],
+        "release_status": "quote_withheld_third_party"
+      },
+      {
+        "instance_id": "4afca27e5534bef71342e20e",
+        "segment": "Meta Platforms::Family Of Apps",
+        "relation_family": "product_transition",
+        "category": "product_transition",
+        "polarity": "positive",
+        "strength": "medium",
+        "confidence": 0.9,
+        "persistence_hint": false,
+        "weight": 0.54,
+        "source_text_sha256": "5ae08f1c60e4968ff5b91d9d3d4446dab9b5bae497950ab0ae7fbfc40645dd8e",
+        "source_text_char_count": 102,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "131c7f7a99908101761e2868",
+          "1a4c1189debdbfe3ef08a959",
+          "35983e0bb1724f40dd750572",
+          "66962bb2dc16c522f2b32fc9",
+          "67baca67554f05c2c3cb0118",
+          "70744e87b31641cb5fe0af98",
+          "73b8c7712c06f3e26c45dc54",
+          "a6b62109d30dbd3dd181a838",
+          "af7458d4250de09e7b63da27",
+          "da6bdc6217d654d330c92f89",
+          "ec6aa6ed0150a7b7192c723c",
+          "f27ed17c5bdd28592f68ece6"
+        ],
+        "release_status": "quote_withheld_third_party"
+      }
+    ],
+    "Meta Platforms::Reality Labs": [
+      {
+        "instance_id": "4f38cabff49003ed6f3138ef",
+        "segment": "Meta Platforms::Reality Labs",
+        "relation_family": "demand",
+        "category": "demand",
+        "polarity": "positive",
+        "strength": "medium",
+        "confidence": 0.95,
+        "persistence_hint": false,
+        "weight": 0.57,
+        "source_text_sha256": "6996cea1281937bee162350396f4b8898a4e77016f79b146a5418dc97277ebb2",
+        "source_text_char_count": 125,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "162187e565985847202424aa",
+          "1798823b91dc0efdd89407d5",
+          "3ce3c0b638cbe2425ec36366",
+          "3fe5cba99888311e34583b65",
+          "514ae3d77085a8660dff0927",
+          "550a86a5af50d51b1a7a7c94",
+          "5ce88490c60e201b1c600786",
+          "63c291d2905d8f692958cc6c",
+          "77a343b21798e1a3ff2e1827",
+          "959721a3b36a45c74614ba7c",
+          "9d579ecc0f536da83928f023",
+          "a1d4eda970853f082eff3e50",
+          "a6b62109d30dbd3dd181a838",
+          "af7458d4250de09e7b63da27",
+          "dc6a083353a01ec390321557",
+          "e61d204280c78026e7264c5a"
+        ],
+        "release_status": "quote_withheld_third_party"
+      },
+      {
+        "instance_id": "8fa224b17eba92e5cac24b76",
+        "segment": "Meta Platforms::Reality Labs",
+        "relation_family": "product_transition",
+        "category": "product_transition",
+        "polarity": "positive",
+        "strength": "medium",
+        "confidence": 0.9,
+        "persistence_hint": false,
+        "weight": 0.54,
+        "source_text_sha256": "38e0f0996bbd4e1325dc5e4dbbf7a19f958b38a207059d7a8317d7c3b9472bdc",
+        "source_text_char_count": 145,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "10e95bf4911324555d4652ef",
+          "170292cf35d8a41a5b3c507d",
+          "1798823b91dc0efdd89407d5",
+          "1c2f4e5e5f01d428b669ed60",
+          "2ea406a287778b6a7b3dbe53",
+          "32b65ba7ed0073913bc4c000",
+          "3ce3c0b638cbe2425ec36366",
+          "555e0df1f7bdf8490ee403f8",
+          "732254c9c27fed6baecf4796",
+          "85a3782377d90a70166be7b3",
+          "9552821aea71a8ece8411eb2",
+          "95e4cd6370e5c9e39086474b",
+          "a1d4eda970853f082eff3e50",
+          "b83ffc16bcf2a2c2987ce250",
+          "bb5c8934db2d5270a3d12da2",
+          "eaab276ded13d90b3a759cd9",
+          "f71f7e26f0b219407ac40d6d"
+        ],
+        "release_status": "quote_withheld_third_party"
+      }
+    ],
+    "unknown": [
+      {
+        "instance_id": "c2ea14eb28495c0f4a300e2e",
+        "segment": "unknown",
+        "relation_family": "macro",
+        "category": "macro",
+        "polarity": "negative",
+        "strength": "low",
+        "confidence": 1.0,
+        "persistence_hint": true,
+        "weight": -0.2,
+        "source_text_sha256": "ada55e8477845c7295c99a10b6065076cf7e504296f2994bd0981ddc212567c1",
+        "source_text_char_count": 126,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "085e80a6cfa734fc0f1b22c8",
+          "14ce8459b7b1dc5c6e38c3c2",
+          "8d40fb38aca52406c673ddf3",
+          "95682b807946210afcaa1b48",
+          "95e4cd6370e5c9e39086474b",
+          "97ce7a6248d8c554323917e0",
+          "97f8130b835bd2f6e245f98b",
+          "9e3be3ba60c06131d1c648d3",
+          "ab2914df6a0522e12353042e",
+          "b3737254e4f80848508b7bc1",
+          "d92522c66cf8a0cecda9263f",
+          "df3cb1c4ad6b971d7263251d",
+          "f7c85cfd1486694942146130"
+        ],
+        "release_status": "quote_withheld_third_party"
+      }
+    ]
+  },
+  "source_text_policy": "quote_withheld_third_party"
+}

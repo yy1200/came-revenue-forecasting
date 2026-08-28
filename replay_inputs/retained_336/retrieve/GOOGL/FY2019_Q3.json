@@ -1,0 +1,128 @@
+{
+  "schema_version": "came_quote_free_typed_retrieval_v1",
+  "ticker": "GOOGL",
+  "quarter_observed": "FY2019_Q2",
+  "affected_quarter": "FY2019_Q3",
+  "segment_shares_base_raw": {
+    "Alphabet::Google": 0.9958401807723911,
+    "Alphabet::Other Bets": 0.004159819227608874
+  },
+  "segment_shares_base_canonical": {
+    "Alphabet::Google": 0.9958401807723911,
+    "Alphabet::Other Bets": 0.004159819227608874
+  },
+  "cards_by_segment": {
+    "Alphabet::Google": [
+      {
+        "instance_id": "58fb41fc733419d73859414e",
+        "segment": "Alphabet::Google",
+        "relation_family": "product_transition",
+        "category": "product_transition",
+        "polarity": "positive",
+        "strength": "high",
+        "confidence": 0.95,
+        "persistence_hint": false,
+        "weight": 0.95,
+        "source_text_sha256": "92c845aeb22028dbbe23502c7f23d988aabca7e0f2f7771b9ffb602857cadd80",
+        "source_text_char_count": 93,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "14f5bdd46fca12aa79d08e46",
+          "1798823b91dc0efdd89407d5",
+          "5c1aa8c9980ac6e31da9c529",
+          "6c1c473a9b4a7765ec026d94",
+          "805ac226ff9f1a1e79d8ee8d",
+          "a6b62109d30dbd3dd181a838",
+          "afe23eccf1ce680bf5c6f1e7",
+          "b1cc01ff92eaff3aa1ba6572",
+          "ebb7b494f17c36651c3f0289"
+        ],
+        "release_status": "quote_withheld_third_party"
+      },
+      {
+        "instance_id": "38d9c651dd0e1d78558902a8",
+        "segment": "Alphabet::Google",
+        "relation_family": "demand",
+        "category": "demand",
+        "polarity": "positive",
+        "strength": "high",
+        "confidence": 0.95,
+        "persistence_hint": false,
+        "weight": 0.95,
+        "source_text_sha256": "b861061509be0dde90d4e53a59d107da379e519e1c57af6177ef9a4d15d91a5d",
+        "source_text_char_count": 139,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "08748b808425f5bf39fc4281",
+          "149bb60d17bd869a0dec61a8",
+          "26edc6c0323907e93dc95344",
+          "2b62b42d3e784938b76f917a",
+          "51a64613f9f3a9fd5133f6c0",
+          "533a85b0fbc8894c4b6f31c7",
+          "54a9ea8d5b42aaedbb7b42e8",
+          "660a0a1d22c74f69e6422a73",
+          "6a33242904d7afc79626f0c0",
+          "81cc874c7d44cb8e61d93ebe",
+          "95e4cd6370e5c9e39086474b",
+          "9e95f2ddece33e8951f96e67",
+          "af7458d4250de09e7b63da27",
+          "b72a9bbaf5848d4252352ccf",
+          "c9d14044b63167f7e85ac5b1",
+          "fd5022ebc5089b906376d763"
+        ],
+        "release_status": "quote_withheld_third_party"
+      },
+      {
+        "instance_id": "475d571d512c3700d4d2475e",
+        "segment": "Alphabet::Google",
+        "relation_family": "demand",
+        "category": "demand",
+        "polarity": "positive",
+        "strength": "high",
+        "confidence": 0.95,
+        "persistence_hint": false,
+        "weight": 0.95,
+        "source_text_sha256": "184748a88c4efb21f233a0f636915d8c91c398c80a35486fc77f8dbc5d49a216",
+        "source_text_char_count": 57,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "2bd214827bccdda815047e8b",
+          "48032ab9620856fb5254d429",
+          "a8e2b6ce8274e900cb5f87ab",
+          "ce9afce43cfefbeb016b87b4"
+        ],
+        "release_status": "quote_withheld_third_party"
+      },
+      {
+        "instance_id": "b5ae81c2ce88cd09c5495747",
+        "segment": "Alphabet::Google",
+        "relation_family": "competition",
+        "category": "competition",
+        "polarity": "positive",
+        "strength": "medium",
+        "confidence": 0.85,
+        "persistence_hint": false,
+        "weight": 0.51,
+        "source_text_sha256": "d23946709144daa731777c6098a2f71fd66a776a2b472aacbb57172908cff427",
+        "source_text_char_count": 72,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "3da10e1342171bd75e06da91",
+          "4f16c362803a5c3d472706cc",
+          "596e6c31503539fd1ea5c68a",
+          "95e4cd6370e5c9e39086474b",
+          "c5ef4b2fbefba846d8e28542",
+          "d1dd474e8a9eb5103560e95c",
+          "d61d752e2a29c75c45becf96",
+          "d6dfb2e5bfcbb970e3cb2ea0",
+          "f71f7e26f0b219407ac40d6d"
+        ],
+        "release_status": "quote_withheld_third_party"
+      }
+    ],
+    "Alphabet::Google Services": [],
+    "Alphabet::Google Cloud": [],
+    "Alphabet::Other Bets": []
+  },
+  "source_text_policy": "quote_withheld_third_party"
+}

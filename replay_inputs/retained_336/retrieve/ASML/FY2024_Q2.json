@@ -1,0 +1,165 @@
+{
+  "schema_version": "came_quote_free_typed_retrieval_v1",
+  "ticker": "ASML",
+  "quarter_observed": "FY2024_Q1",
+  "affected_quarter": "FY2024_Q2",
+  "segment_shares_base_raw": {
+    "ASML Holding::Net System Sales": 0.7547169811320755,
+    "ASML Holding::Installed Base Management": 0.24528301886792453
+  },
+  "segment_shares_base_canonical": {
+    "ASML Holding::Net System Sales": 0.7547169811320755,
+    "ASML Holding::Installed Base Management": 0.24528301886792453
+  },
+  "cards_by_segment": {
+    "ASML Holding::Net System Sales": [
+      {
+        "instance_id": "eb8bea043945b100c4e4085c",
+        "segment": "ASML Holding::Net System Sales",
+        "relation_family": "demand",
+        "category": "demand",
+        "polarity": "positive",
+        "strength": "high",
+        "confidence": 0.9,
+        "persistence_hint": false,
+        "weight": 0.9,
+        "source_text_sha256": "8c159271898bbf333baaacd7fdf2e894070af8a70d4bcdfcb818c25f5b5a6d6d",
+        "source_text_char_count": 123,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "184c4a81103c0fce3dce9284",
+          "2876586cca0f28fce358dcd4",
+          "38ef65c4ba9b54fbcb79a4d2",
+          "4ba50462a5e47f165c7ef16c",
+          "533a85b0fbc8894c4b6f31c7",
+          "5ad2b1cfea49d7443c1abc12",
+          "a45e1868f0e539245d00f14b",
+          "af7458d4250de09e7b63da27",
+          "d150798b50eaa6cd54ab8422",
+          "ee7026e2d47b016dadecbe06",
+          "f32bfacf4809cd424797a591",
+          "f5dbd217ad3c8fb78eb23aa2",
+          "f9fb15b726f5fb6358c56882",
+          "fcfc67da5b4fe13d40831997"
+        ],
+        "release_status": "quote_withheld_third_party"
+      },
+      {
+        "instance_id": "f7d4fbc835fd7f9853327cf8",
+        "segment": "ASML Holding::Net System Sales",
+        "relation_family": "demand",
+        "category": "demand",
+        "polarity": "positive",
+        "strength": "high",
+        "confidence": 0.9,
+        "persistence_hint": true,
+        "weight": 0.9,
+        "source_text_sha256": "032298b31aa59fa7c1f727edc9dccde85f066c936a4a8483e1e265c2c14d6ceb",
+        "source_text_char_count": 126,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "085e80a6cfa734fc0f1b22c8",
+          "184c4a81103c0fce3dce9284",
+          "4ba50462a5e47f165c7ef16c",
+          "a45e1868f0e539245d00f14b",
+          "dc5206c1ca405a8aef259561",
+          "ee7026e2d47b016dadecbe06",
+          "f9fb15b726f5fb6358c56882"
+        ],
+        "release_status": "quote_withheld_third_party"
+      },
+      {
+        "instance_id": "863c629b9bf9652d5b931f05",
+        "segment": "ASML Holding::Net System Sales",
+        "relation_family": "demand",
+        "category": "demand",
+        "polarity": "negative",
+        "strength": "medium",
+        "confidence": 0.85,
+        "persistence_hint": false,
+        "weight": -0.51,
+        "source_text_sha256": "dc84d16669998c61f4ab478d58313a52523f185c6b7ff072a51d7c116231d000",
+        "source_text_char_count": 94,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "085e80a6cfa734fc0f1b22c8",
+          "13404f9c02e1e6667f77f6ea",
+          "1798823b91dc0efdd89407d5",
+          "468c5aa973d54d8c485dae80",
+          "469db9ad5d578ec188bc87b5",
+          "723e2bf35ffc16a2fe5f1f3d",
+          "855dd8ed61de025339ae6471",
+          "8d40fb38aca52406c673ddf3",
+          "8ee10bd90791af124af1dab5",
+          "afe23eccf1ce680bf5c6f1e7",
+          "be031e18ad8564a28f13881b"
+        ],
+        "release_status": "quote_withheld_third_party"
+      },
+      {
+        "instance_id": "833188ae2a67ad6a3ee840c5",
+        "segment": "ASML Holding::Net System Sales",
+        "relation_family": "demand",
+        "category": "demand",
+        "polarity": "negative",
+        "strength": "medium",
+        "confidence": 0.85,
+        "persistence_hint": true,
+        "weight": -0.51,
+        "source_text_sha256": "ecd7870dac54b58cb9c41438f6a2c75e2084dc0477fba1da2961028bb204d9ee",
+        "source_text_char_count": 123,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "085e80a6cfa734fc0f1b22c8",
+          "13404f9c02e1e6667f77f6ea",
+          "1798823b91dc0efdd89407d5",
+          "185724d61d1ae9acf8bf2e88",
+          "469db9ad5d578ec188bc87b5",
+          "4e924cc06d1e1648db9b42c2",
+          "52258484aeaa45f753747415",
+          "855dd8ed61de025339ae6471",
+          "8cd6cfbd1b10aad6edfd142e",
+          "8d40fb38aca52406c673ddf3",
+          "8ee10bd90791af124af1dab5",
+          "a8e2b6ce8274e900cb5f87ab",
+          "be031e18ad8564a28f13881b"
+        ],
+        "release_status": "quote_withheld_third_party"
+      }
+    ],
+    "ASML Holding::Installed Base Management": [
+      {
+        "instance_id": "610bd2184c7f008eec41964c",
+        "segment": "ASML Holding::Installed Base Management",
+        "relation_family": "demand",
+        "category": "demand",
+        "polarity": "positive",
+        "strength": "medium",
+        "confidence": 0.95,
+        "persistence_hint": true,
+        "weight": 0.57,
+        "source_text_sha256": "380c19a33044d1f772a5e174c797f600338eefba2161ef95c5e975f6ed53f716",
+        "source_text_char_count": 152,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "085e80a6cfa734fc0f1b22c8",
+          "134d3d05818c50deb32c6cec",
+          "1798823b91dc0efdd89407d5",
+          "1ca7b800667e9ff443f9d07c",
+          "473d7e08bcd396ef1a6d704f",
+          "5ecea9daa18f9c62eca355bd",
+          "6a33242904d7afc79626f0c0",
+          "6a7de99c3bd1723c7484c0ce",
+          "7ab8249e85fa1788bfd12438",
+          "8e54fed4eed199ad0c503dab",
+          "9bf670e65464b1636827a6fc",
+          "b25464dce7a9931db008c9f4",
+          "da5c6df5851d81d520a79950",
+          "dbd1d97510c01ff5eeb20687"
+        ],
+        "release_status": "quote_withheld_third_party"
+      }
+    ]
+  },
+  "source_text_policy": "quote_withheld_third_party"
+}

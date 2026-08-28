@@ -1,0 +1,7 @@
+{
+  "company_name": "ASML",
+  "ticker": "ASML",
+  "data_paths": {
+    "forecast_dataset_csv": "replay_inputs/retained_336/companies/ASML/forecast_dataset.csv"
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "schema_version": "came_quote_free_typed_retrieval_v1",
+  "ticker": "META",
+  "quarter_observed": "FY2021_Q1",
+  "affected_quarter": "FY2021_Q2",
+  "segment_shares_base_raw": {
+    "Meta Platforms::Advertising": 0.9720301096633679,
+    "Meta Platforms::Other Revenue": 0.02796989033663215
+  },
+  "segment_shares_base_canonical": {
+    "Meta Platforms::Advertising": 0.9720301096633679,
+    "Meta Platforms::Other Revenue": 0.02796989033663215
+  },
+  "cards_by_segment": {
+    "Meta Platforms::Reality Labs": [
+      {
+        "instance_id": "da10c959039b26b3389f9fec",
+        "segment": "Meta Platforms::Reality Labs",
+        "relation_family": "demand",
+        "category": "demand",
+        "polarity": "positive",
+        "strength": "high",
+        "confidence": 0.95,
+        "persistence_hint": true,
+        "weight": 0.95,
+        "source_text_sha256": "eb7c1fda8ac3f7eae204fb5aae69a213bb3be840f1e82cf66d984be60df2d5b8",
+        "source_text_char_count": 108,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "1767d026139cbd55b80a269d",
+          "1798823b91dc0efdd89407d5",
+          "5dcad119926eac44bded50a8",
+          "6b0eea309ba1abbf5d176d88",
+          "8d108d1df2c23bc0850680e8",
+          "a0307a9feab1b54d42b11d9f",
+          "a4d2a64f252c37fe845d0565",
+          "e650f5b20e1702cac121496b",
+          "e8cde00b9fa57fb2de46550e",
+          "ec6aa6ed0150a7b7192c723c",
+          "f71f7e26f0b219407ac40d6d"
+        ],
+        "release_status": "quote_withheld_third_party"
+      },
+      {
+        "instance_id": "1ba121557d8d91030db3fc4c",
+        "segment": "Meta Platforms::Reality Labs",
+        "relation_family": "product_transition",
+        "category": "product_transition",
+        "polarity": "positive",
+        "strength": "high",
+        "confidence": 0.9,
+        "persistence_hint": true,
+        "weight": 0.9,
+        "source_text_sha256": "7a76214f076c28d82d25d050d0d4efead0002200705dda692422d63198688128",
+        "source_text_char_count": 153,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "00e0fe672731a1a38fd38f34",
+          "0ab50f110baa612d838c6d35",
+          "1798823b91dc0efdd89407d5",
+          "1a86cbaf287352c79ab16480",
+          "1ca3074e1e9daf6d66777854",
+          "1d51810489edbdb28e5a76b2",
+          "328762f126bde3df1dd7f997",
+          "35331b0215545db5e8cf7c47",
+          "404b80cce2d37659b4c43196",
+          "4a2afc6f21ef6db2d94959fe",
+          "54a9ea8d5b42aaedbb7b42e8",
+          "6653547e4200c329a7d696d4",
+          "88af6023991e618834b7888b",
+          "95e4cd6370e5c9e39086474b",
+          "a8c43409d8ab557dcf48edd9",
+          "af7458d4250de09e7b63da27",
+          "e61d204280c78026e7264c5a",
+          "ec3dd0b66f699a2e0924c1d0"
+        ],
+        "release_status": "quote_withheld_third_party"
+      }
+    ],
+    "Meta Platforms::Family Of Apps": [
+      {
+        "instance_id": "845eb469706c4430ea1867ea",
+        "segment": "Meta Platforms::Family Of Apps",
+        "relation_family": "pricing",
+        "category": "pricing",
+        "polarity": "positive",
+        "strength": "high",
+        "confidence": 0.95,
+        "persistence_hint": false,
+        "weight": 0.95,
+        "source_text_sha256": "4d4ddc034b4df5762966934e38f5b908b54f1e6ba6891c61e8dc653b60d4c85d",
+        "source_text_char_count": 127,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "194c6f55ac277a47e609da94",
+          "623be5830ccb55f087eda644",
+          "660a0a1d22c74f69e6422a73",
+          "9d8bde99d68fe11dc2b3eced",
+          "a7effe6d84be34b97e8427fc",
+          "af7458d4250de09e7b63da27",
+          "af989342684185caaba25553",
+          "c610f9b020e192d1f09a9d11"
+        ],
+        "release_status": "quote_withheld_third_party"
+      },
+      {
+        "instance_id": "10caad868c738330a607031e",
+        "segment": "Meta Platforms::Family Of Apps",
+        "relation_family": "demand",
+        "category": "demand",
+        "polarity": "positive",
+        "strength": "medium",
+        "confidence": 0.9,
+        "persistence_hint": false,
+        "weight": 0.54,
+        "source_text_sha256": "8b45d5982072369cf636928b930587232003ae7a82d8e9e29a556a3a48c9457d",
+        "source_text_char_count": 92,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "162187e565985847202424aa",
+          "32292cbef1812b3c2cf5ff9b",
+          "4d203baf5076d18f8c6225c7",
+          "4e61e86b749d8cb714ef9990",
+          "666d82f41d6b1b11228ef844",
+          "9392742ddf6f51d24de8c0b1",
+          "95e4cd6370e5c9e39086474b",
+          "a8c43409d8ab557dcf48edd9",
+          "ae62cc20d8f9119ffc37d3a5",
+          "af7458d4250de09e7b63da27",
+          "dd73a03eb38cc07ed6fcdc3f"
+        ],
+        "release_status": "quote_withheld_third_party"
+      },
+      {
+        "instance_id": "269fc267a406ed02c26ff2ee",
+        "segment": "Meta Platforms::Family Of Apps",
+        "relation_family": "demand",
+        "category": "product_transition",
+        "polarity": "positive",
+        "strength": "medium",
+        "confidence": 0.85,
+        "persistence_hint": true,
+        "weight": 0.51,
+        "source_text_sha256": "8901919c4baa116ca7dc796407e6162eb1dbed622d5abad140e4f108e3fca8cc",
+        "source_text_char_count": 101,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "036e9573c5c98f7568164222",
+          "37a0417e3479f5ce7e987491",
+          "3b64910927c86901dbae7820",
+          "54a9ea8d5b42aaedbb7b42e8",
+          "8c76445232171d54b03b3494",
+          "96c3544625984ec426e7b8de",
+          "af7458d4250de09e7b63da27",
+          "bdb1f39003d88efefae051ae",
+          "c32110b48233ed43e61a8d04",
+          "d3169195878136fb5c5df107",
+          "ec3dd0b66f699a2e0924c1d0"
+        ],
+        "release_status": "quote_withheld_third_party"
+      }
+    ],
+    "unknown": [
+      {
+        "instance_id": "d94dc3e49f5671fe3ad9c7ac",
+        "segment": "unknown",
+        "relation_family": "regulation",
+        "category": "regulation",
+        "polarity": "negative",
+        "strength": "high",
+        "confidence": 0.95,
+        "persistence_hint": true,
+        "weight": -0.95,
+        "source_text_sha256": "342706399edd6430566d44831aa299643c088fde4f6681925a128f5efa791470",
+        "source_text_char_count": 212,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "077a96402bf47f50da5b2023",
+          "134d3d05818c50deb32c6cec",
+          "1798823b91dc0efdd89407d5",
+          "1aa62c96d89cf9c32b2574bb",
+          "35ea4e7e0182ab6ca9cd9456",
+          "452f83fcc049bae08381fbaf",
+          "65d6d6a7d9f621b281359b77",
+          "6bfd3b3646b9aaa0d4b8bc23",
+          "9b4b7386e62218dbccdace24",
+          "a76cd0d43d96ef5024e1b870",
+          "af7458d4250de09e7b63da27",
+          "afa9e2ede2ae820634399da0",
+          "b50886ef3ca501ca91419c7e",
+          "be5d94372878c400b4f0e7de",
+          "c92e4ebd5edb299d29012db5",
+          "e3b522911728d503cdb90e5b",
+          "e5c410bfae3dad9ce8eb5e3b",
+          "f245cad224532612c68f6bd7"
+        ],
+        "release_status": "quote_withheld_third_party"
+      }
+    ]
+  },
+  "source_text_policy": "quote_withheld_third_party"
+}

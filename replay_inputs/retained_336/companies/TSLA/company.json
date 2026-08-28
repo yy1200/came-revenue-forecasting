@@ -1,0 +1,7 @@
+{
+  "company_name": "TSLA",
+  "ticker": "TSLA",
+  "data_paths": {
+    "forecast_dataset_csv": "replay_inputs/retained_336/companies/TSLA/forecast_dataset.csv"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "company_name": "NVDA",
+  "ticker": "NVDA",
+  "data_paths": {
+    "forecast_dataset_csv": "replay_inputs/retained_336/companies/NVDA/forecast_dataset.csv"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "schema_version": "came_quote_free_typed_retrieval_v1",
+  "ticker": "AAPL",
+  "quarter_observed": "FY2025_Q2",
+  "affected_quarter": "FY2025_Q3",
+  "segment_shares_base_raw": {
+    "Apple::iPhone": 0.49120691282416973,
+    "Apple::Mac": 0.0833586761606141,
+    "Apple::iPad": 0.06713577113853962,
+    "Apple::Wearables Home and Accessories": 0.07888086074728133,
+    "Apple::Services": 0.27941777912939525
+  },
+  "segment_shares_base_canonical": {
+    "Apple::iPhone": 0.49120691282416973,
+    "Apple::Mac": 0.0833586761606141,
+    "Apple::iPad": 0.06713577113853962,
+    "Apple::Wearables Home and Accessories": 0.07888086074728133,
+    "Apple::Services": 0.27941777912939525
+  },
+  "cards_by_segment": {
+    "unknown": [
+      {
+        "instance_id": "d53669f451cd0caad047a04f",
+        "segment": "unknown",
+        "relation_family": "regulation",
+        "category": "regulation",
+        "polarity": "negative",
+        "strength": "high",
+        "confidence": 1.0,
+        "persistence_hint": true,
+        "weight": -1.0,
+        "source_text_sha256": "3faeed831b5f59406666eb72f83e108494545358dadc9059d61a9211f97aae72",
+        "source_text_char_count": 224,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "1798823b91dc0efdd89407d5",
+          "2aa5427a0450e762cb6ea902",
+          "35ea4e7e0182ab6ca9cd9456",
+          "37cf21808daff9c2f8ce9c7f",
+          "3da10e1342171bd75e06da91",
+          "54a9ea8d5b42aaedbb7b42e8",
+          "6a2176386e3e0a41bbb1dcd7",
+          "6fe1c9d7ee935a944abdb17a",
+          "7a34c0471eb3bd8ce52b67e8",
+          "7ad35a92ba392e7b32785a79",
+          "7fa80360ee755ac1063df21a",
+          "8c92a4d25f6a4921795e4cb7",
+          "95e4cd6370e5c9e39086474b",
+          "9a14e5dc0120f071dc75d110",
+          "9e3be3ba60c06131d1c648d3",
+          "a6b62109d30dbd3dd181a838",
+          "aabe826f1636e3ebce57417c",
+          "af7458d4250de09e7b63da27",
+          "b2bcaf4d1ece4be3be59cc13",
+          "d2f2ed60c14e9030d0787622",
+          "d6dfb2e5bfcbb970e3cb2ea0",
+          "d92522c66cf8a0cecda9263f",
+          "df4c6843cf5e26a02d93c0fe",
+          "f5a094043237b0c9c0cc135c",
+          "fe0165a55bae07ba2402ab06",
+          "ffd88a66b0aaa50305ad64cc",
+          "ffeab56f40fa8b9e4f9d3871"
+        ],
+        "release_status": "quote_withheld_third_party"
+      }
+    ],
+    "Apple::iPhone": [
+      {
+        "instance_id": "4c08de77a775651593f66fb2",
+        "segment": "Apple::iPhone",
+        "relation_family": "demand",
+        "category": "demand",
+        "polarity": "positive",
+        "strength": "medium",
+        "confidence": 0.9,
+        "persistence_hint": false,
+        "weight": 0.54,
+        "source_text_sha256": "0aff8a28ee7ad27b3752d9b3be96a8411c6921a356c8d05e667691d4b7a235ad",
+        "source_text_char_count": 220,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "085e80a6cfa734fc0f1b22c8",
+          "0f6f5c95628c838ff0c31268",
+          "1345fd6f683cd5256ad14dfd",
+          "1798823b91dc0efdd89407d5",
+          "27fc106de546446d3c80611f",
+          "2fb78173cd7739cac3b03b4d",
+          "468c7af6eb52310b493cef5c",
+          "4aec2c89c4dbf2cb1b44f136",
+          "52cef58d5113595e53ad5310",
+          "5af494b313781779616b2912",
+          "660a0a1d22c74f69e6422a73",
+          "7ad35a92ba392e7b32785a79",
+          "8d40fb38aca52406c673ddf3",
+          "9552821aea71a8ece8411eb2",
+          "a30b0eea7666251322c90b42",
+          "ad42dc03b3fbde5cdd3c6d6d",
+          "b08754cc2f5c3d117e5136de",
+          "b35b97ddb3e74cbcb6ed3f56",
+          "cb99ac846bb1feaf37f53a6b",
+          "e61d204280c78026e7264c5a"
+        ],
+        "release_status": "quote_withheld_third_party"
+      }
+    ],
+    "Apple::Mac": [],
+    "Apple::iPad": [],
+    "Apple::Services": [],
+    "Apple::Other Products": [],
+    "Apple::Wearables Home and Accessories": []
+  },
+  "source_text_policy": "quote_withheld_third_party"
+}

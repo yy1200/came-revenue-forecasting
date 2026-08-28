@@ -1,0 +1,7 @@
+{
+  "company_name": "MU",
+  "ticker": "MU",
+  "data_paths": {
+    "forecast_dataset_csv": "replay_inputs/retained_336/companies/MU/forecast_dataset.csv"
+  }
+}

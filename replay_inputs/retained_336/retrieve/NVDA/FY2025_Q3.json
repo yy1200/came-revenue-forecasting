@@ -1,0 +1,213 @@
+{
+  "schema_version": "came_quote_free_typed_retrieval_v1",
+  "ticker": "NVDA",
+  "quarter_observed": "FY2025_Q2",
+  "affected_quarter": "FY2025_Q3",
+  "segment_shares_base_raw": {
+    "NVIDIA::Data Center": 0.8745672436750999,
+    "NVIDIA::Gaming": 0.09587217043941411,
+    "NVIDIA::Professional Visualization": 0.01511318242343542,
+    "NVIDIA::Automotive": 0.01151797603195739,
+    "NVIDIA::OEM and Other": 0.002929427430093209
+  },
+  "segment_shares_base_canonical": {
+    "NVIDIA::Data Center": 0.8745672436750999,
+    "NVIDIA::Gaming": 0.09587217043941411,
+    "NVIDIA::Professional Visualization": 0.01511318242343542,
+    "NVIDIA::Automotive": 0.01151797603195739,
+    "NVIDIA::OEM and Other": 0.002929427430093209
+  },
+  "cards_by_segment": {
+    "NVIDIA::Data Center": [
+      {
+        "instance_id": "b6932e4101d7a62fab0df81e",
+        "segment": "NVIDIA::Data Center",
+        "relation_family": "demand",
+        "category": "demand",
+        "polarity": "positive",
+        "strength": "high",
+        "confidence": 1.0,
+        "persistence_hint": true,
+        "weight": 1.0,
+        "source_text_sha256": "7000f7f621d5132cf6dc469709d4daf35103d89ed2d140cc3a5f150ebc645032",
+        "source_text_char_count": 167,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "1d9ba48b8a0fa0f183612c6b",
+          "2e8e97b3d0f2347b37ed3c89",
+          "533a85b0fbc8894c4b6f31c7",
+          "54a9ea8d5b42aaedbb7b42e8",
+          "54f7df90bdfd2c9ec65e5ace",
+          "73fc19303ab8dbff88f5d590",
+          "7a34c0471eb3bd8ce52b67e8",
+          "84b255600ba4563f2ed2a1fc",
+          "8d9dbfd690eb0f7f15b5855f",
+          "9027501e7642dac95f780da3",
+          "97212f55e59b65a15e174f23",
+          "af7458d4250de09e7b63da27",
+          "c4f62504a65db8ec1f18b928",
+          "c51ce61eb60e49ee333268d8",
+          "d8f71023bd8569a26d33b73d",
+          "dbe7779a4ad24cc414ce71af",
+          "ec3dd0b66f699a2e0924c1d0",
+          "ed5fed45171a734e466b75e3"
+        ],
+        "release_status": "quote_withheld_third_party"
+      },
+      {
+        "instance_id": "d35ecc045f0e69026f976b90",
+        "segment": "NVIDIA::Data Center",
+        "relation_family": "demand",
+        "category": "demand",
+        "polarity": "positive",
+        "strength": "high",
+        "confidence": 1.0,
+        "persistence_hint": false,
+        "weight": 1.0,
+        "source_text_sha256": "1cf8a2ecf8ee03bca56fb15b110bbcf45144a856241bbd40916b56a41d6d5397",
+        "source_text_char_count": 155,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "10da1c45193e1d8b333e805a",
+          "1798823b91dc0efdd89407d5",
+          "391e3984e358a50c5648f900",
+          "51a64613f9f3a9fd5133f6c0",
+          "54a9ea8d5b42aaedbb7b42e8",
+          "5e61ade6d54daa40d29b00f2",
+          "7b08f812567034b5a43d8f78",
+          "7bafbfd7aab28820c8e78c20",
+          "84b255600ba4563f2ed2a1fc",
+          "95e4cd6370e5c9e39086474b",
+          "a6f5be146a3edece6ea204b2",
+          "af7458d4250de09e7b63da27",
+          "bd8567742cc0f097a0611bc5",
+          "c51ce61eb60e49ee333268d8",
+          "c5bbf2ba51a4c261ef2408ae",
+          "ed5fed45171a734e466b75e3"
+        ],
+        "release_status": "quote_withheld_third_party"
+      },
+      {
+        "instance_id": "18d1d1bcbf2f795bd3166d82",
+        "segment": "NVIDIA::Data Center",
+        "relation_family": "supply",
+        "category": "supply",
+        "polarity": "positive",
+        "strength": "medium",
+        "confidence": 1.0,
+        "persistence_hint": false,
+        "weight": 0.6,
+        "source_text_sha256": "e78afe43ad27b7131134ffde733fb56ce75b952d648008a863da432ae5adda17",
+        "source_text_char_count": 44,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "82cd0ed7ee08a935ead90aad",
+          "8dc95eb252889e86e4df7106",
+          "9f1f38355b380eb41a06886f",
+          "af7458d4250de09e7b63da27",
+          "dca2c840091c53a14754bbe4"
+        ],
+        "release_status": "quote_withheld_third_party"
+      }
+    ],
+    "unknown": [
+      {
+        "instance_id": "e41d93e5bc7cc04a49dfdc20",
+        "segment": "unknown",
+        "relation_family": "supply",
+        "category": "demand",
+        "polarity": "negative",
+        "strength": "high",
+        "confidence": 1.0,
+        "persistence_hint": true,
+        "weight": -1.0,
+        "source_text_sha256": "12557f71d2fd7434e3d42990d3f3dc01995c5ce22fee7fb1f31f082e8394c455",
+        "source_text_char_count": 98,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "05f7f958db18f217606c7618",
+          "085e80a6cfa734fc0f1b22c8",
+          "162187e565985847202424aa",
+          "41f5aa57bbfb8f829f567787",
+          "533a85b0fbc8894c4b6f31c7",
+          "54a9ea8d5b42aaedbb7b42e8",
+          "9f1f38355b380eb41a06886f",
+          "af7458d4250de09e7b63da27",
+          "cc2007f579fa691e16d0cd50",
+          "d7651d0107b2954502d88f1f"
+        ],
+        "release_status": "quote_withheld_third_party"
+      }
+    ],
+    "NVIDIA::Automotive": [
+      {
+        "instance_id": "2fac7e251580b91f641fd8be",
+        "segment": "NVIDIA::Automotive",
+        "relation_family": "demand",
+        "category": "demand",
+        "polarity": "positive",
+        "strength": "medium",
+        "confidence": 1.0,
+        "persistence_hint": false,
+        "weight": 0.6,
+        "source_text_sha256": "3c49da7edca1d361939574f304ee2de6be639346d60bfef8cd0fdd03f80ad439",
+        "source_text_char_count": 148,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "1798823b91dc0efdd89407d5",
+          "196c813a5d592a127917d0e4",
+          "33fdd811e8fe6ec422d4b595",
+          "4ba50462a5e47f165c7ef16c",
+          "51a64613f9f3a9fd5133f6c0",
+          "54a9ea8d5b42aaedbb7b42e8",
+          "5dc7d4e77511dfaec946e3bb",
+          "660a0a1d22c74f69e6422a73",
+          "8d9dbfd690eb0f7f15b5855f",
+          "944eca159ca0a2fc2f23df9e",
+          "a46ad89860e606cafb85460a",
+          "ceac38bedaf6eef4d825ec6f",
+          "d700c9734dc4ba124ecc3d6d",
+          "e95baabec516ea0a46eb1ec5",
+          "ee880e9d08aec4470f679193",
+          "fe96339e61845a16100b3a7c"
+        ],
+        "release_status": "quote_withheld_third_party"
+      }
+    ],
+    "NVIDIA::Professional Visualization": [
+      {
+        "instance_id": "e4eca9f7b8f3a943cf699172",
+        "segment": "NVIDIA::Professional Visualization",
+        "relation_family": "demand",
+        "category": "demand",
+        "polarity": "positive",
+        "strength": "medium",
+        "confidence": 1.0,
+        "persistence_hint": false,
+        "weight": 0.6,
+        "source_text_sha256": "f38ff1b2d43d80201a133dcc03c124b6a43d5b8db9ce6e3163e7094641c8f26f",
+        "source_text_char_count": 117,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "007307ae4c80db010580291e",
+          "05f7f958db18f217606c7618",
+          "1798823b91dc0efdd89407d5",
+          "1cd385171b1c23ca2914f6f5",
+          "29839033b8738a08bc3cd975",
+          "433d3d0929fd92500746e5ab",
+          "72a9dc0bf943833893968cc4",
+          "860af7fa1d310da2e8cfc58b",
+          "8d9dbfd690eb0f7f15b5855f",
+          "d700c9734dc4ba124ecc3d6d",
+          "e649c7c795b3b58930f09c03",
+          "f6c8504e2192bc0f76a26e4c",
+          "fbfecee712634655e1587cbb"
+        ],
+        "release_status": "quote_withheld_third_party"
+      }
+    ],
+    "NVIDIA::Gaming": [],
+    "NVIDIA::OEM and Other": []
+  },
+  "source_text_policy": "quote_withheld_third_party"
+}

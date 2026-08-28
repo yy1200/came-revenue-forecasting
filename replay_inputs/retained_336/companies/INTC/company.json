@@ -1,0 +1,7 @@
+{
+  "company_name": "INTC",
+  "ticker": "INTC",
+  "data_paths": {
+    "forecast_dataset_csv": "replay_inputs/retained_336/companies/INTC/forecast_dataset.csv"
+  }
+}

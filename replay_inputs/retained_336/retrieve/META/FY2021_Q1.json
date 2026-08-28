@@ -1,0 +1,115 @@
+{
+  "schema_version": "came_quote_free_typed_retrieval_v1",
+  "ticker": "META",
+  "quarter_observed": "FY2020_Q4",
+  "affected_quarter": "FY2021_Q1",
+  "segment_shares_base_raw": {
+    "Meta Platforms::Advertising": 0.9685084250650137,
+    "Meta Platforms::Other Revenue": 0.031491574934986284
+  },
+  "segment_shares_base_canonical": {
+    "Meta Platforms::Advertising": 0.9685084250650137,
+    "Meta Platforms::Other Revenue": 0.031491574934986284
+  },
+  "cards_by_segment": {
+    "Meta Platforms::Family Of Apps": [
+      {
+        "instance_id": "ca2f040245846cb28d5407dd",
+        "segment": "Meta Platforms::Family Of Apps",
+        "relation_family": "regulation",
+        "category": "regulation",
+        "polarity": "negative",
+        "strength": "high",
+        "confidence": 0.95,
+        "persistence_hint": true,
+        "weight": -0.95,
+        "source_text_sha256": "97696e721de64b42ec7322d5564ac2890ceab68c883069afbfa582bfc0b90dce",
+        "source_text_char_count": 127,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "1798823b91dc0efdd89407d5",
+          "35ea4e7e0182ab6ca9cd9456",
+          "5953abb46722fcc82dc81c24",
+          "9bf670e65464b1636827a6fc",
+          "a8679479229791fcc291b815",
+          "a8e2b6ce8274e900cb5f87ab",
+          "ac0c5b0ef09906431d26aa3b",
+          "afa9e2ede2ae820634399da0",
+          "cbed79f29cb5f69bf5673161",
+          "ce98396ba6b59d38a76b93f3",
+          "e3b522911728d503cdb90e5b",
+          "f13c313f7be78ba668abd4e6",
+          "f95960b29b48a4e0df87130f"
+        ],
+        "release_status": "quote_withheld_third_party"
+      },
+      {
+        "instance_id": "68b8f6d0d620b03911b7605b",
+        "segment": "Meta Platforms::Family Of Apps",
+        "relation_family": "macro",
+        "category": "macro",
+        "polarity": "positive",
+        "strength": "high",
+        "confidence": 0.9,
+        "persistence_hint": true,
+        "weight": 0.9,
+        "source_text_sha256": "e948cd05a19095c236b8c43012371fab4216270bcfcea7a18eea1774f90ab4f7",
+        "source_text_char_count": 152,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "0ffa8c743360d4ac79d0aeba",
+          "1798823b91dc0efdd89407d5",
+          "22ed8b59e70055ef77599d96",
+          "2e9ab3f5f75e1f22267a180d",
+          "32292cbef1812b3c2cf5ff9b",
+          "4e61e86b749d8cb714ef9990",
+          "65a4ffe4b1ae0cdda1856464",
+          "7e7f3ff36ac4f164bc83c146",
+          "7ef45fc4ac8a3a23ff14456c",
+          "8402c3e8fe6fe6cfe2f1dd0b",
+          "95e4cd6370e5c9e39086474b",
+          "9bf670e65464b1636827a6fc",
+          "a1c378f9f215f6ffd195e819",
+          "a5d147c25b11358f19104ced",
+          "d51785aa8fa616bdbfb9210d",
+          "db545334c7d33e211f78e802",
+          "e61d204280c78026e7264c5a",
+          "e6e83665982b4ed4ccbfbcb6"
+        ],
+        "release_status": "quote_withheld_third_party"
+      },
+      {
+        "instance_id": "59e1adfd159129c49e126403",
+        "segment": "Meta Platforms::Family Of Apps",
+        "relation_family": "product_transition",
+        "category": "product_transition",
+        "polarity": "positive",
+        "strength": "medium",
+        "confidence": 0.9,
+        "persistence_hint": true,
+        "weight": 0.54,
+        "source_text_sha256": "19b2d4a1cae4016a38af60d932a751796e5fd56c259dc2a6aa235e1325bb815b",
+        "source_text_char_count": 130,
+        "source_text_release_status": "quote_withheld_third_party",
+        "release_token_ids": [
+          "055e2b32c601b442b19fa728",
+          "1798823b91dc0efdd89407d5",
+          "1d51810489edbdb28e5a76b2",
+          "539bfabb74f1eb4bf39f3d5a",
+          "75c433d602e0b60b92940e9d",
+          "76168d76cd9d4ac4db2f9d16",
+          "9012bbb1a47373cb97bae038",
+          "a6b62109d30dbd3dd181a838",
+          "af7458d4250de09e7b63da27",
+          "b35b97ddb3e74cbcb6ed3f56",
+          "d7e0dae4f52de2dc94171bbf",
+          "e728ffecfcd1694a4158beb6",
+          "fc4ee7d7787982f816960f32"
+        ],
+        "release_status": "quote_withheld_third_party"
+      }
+    ],
+    "Meta Platforms::Reality Labs": []
+  },
+  "source_text_policy": "quote_withheld_third_party"
+}

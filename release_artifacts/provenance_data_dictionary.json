@@ -1,0 +1,72 @@
+{
+  "schema_version": "came_multidimensional_provenance_v1",
+  "purpose": "Orthogonal release and source-provenance labels; no field alone is a data license or source-access grant.",
+  "fields": {
+    "public_release_status": {
+      "description": "Whether this artifact row is included in the public release package.",
+      "values": {
+        "included_in_public_release": "The normalized row is included in the public archive."
+      }
+    },
+    "derived_artifact_status": {
+      "description": "How the released row relates to upstream material.",
+      "values": {
+        "author_created_derived_post_extraction_card": "Author-created structured evidence-card artifact derived after upstream extraction.",
+        "author_created_derived_forecast_trace": "Author-created numerical forecast and decision-trace artifact.",
+        "author_created_release_manifest": "Author-created inventory, integrity, and release-boundary metadata.",
+        "author_created_derived_replay_input": "Author-created or normalized post-extraction input used by deterministic replay."
+      }
+    },
+    "source_material_access_status": {
+      "description": "Whether underlying third-party source material is supplied with this package.",
+      "values": {
+        "not_included_mixed_public_or_provider_access": "Underlying source documents are not included; original access conditions vary by source or provider.",
+        "not_required_for_public_post_extraction_replay": "The deterministic public replay uses the released derived artifact and does not require the underlying source document."
+      }
+    },
+    "source_material_redistribution_status": {
+      "description": "Whether this package redistributes or grants rights in underlying source material.",
+      "values": {
+        "not_redistributed_no_rights_grant": "Underlying third-party source material is not redistributed and no rights in it are granted."
+      }
+    },
+    "verbatim_text_status": {
+      "description": "Whether third-party verbatim source text appears in the released artifact row.",
+      "values": {
+        "withheld_hash_locator_only": "Verbatim source text is withheld; only hashes, identifiers, lengths, or sentence locators may remain.",
+        "absent": "The artifact contains no third-party verbatim source text.",
+        "withheld_or_absent_quote_free": "Manifest-level profile covering quote-free inputs where source text is withheld or no text field exists."
+      }
+    }
+  },
+  "profiles": {
+    "normalized_evidence_card": {
+      "public_release_status": "included_in_public_release",
+      "derived_artifact_status": "author_created_derived_post_extraction_card",
+      "source_material_access_status": "not_included_mixed_public_or_provider_access",
+      "source_material_redistribution_status": "not_redistributed_no_rights_grant",
+      "verbatim_text_status": "withheld_hash_locator_only"
+    },
+    "normalized_forecast_trace": {
+      "public_release_status": "included_in_public_release",
+      "derived_artifact_status": "author_created_derived_forecast_trace",
+      "source_material_access_status": "not_required_for_public_post_extraction_replay",
+      "source_material_redistribution_status": "not_redistributed_no_rights_grant",
+      "verbatim_text_status": "absent"
+    },
+    "replay_manifest": {
+      "public_release_status": "included_in_public_release",
+      "derived_artifact_status": "author_created_release_manifest",
+      "source_material_access_status": "not_required_for_public_post_extraction_replay",
+      "source_material_redistribution_status": "not_redistributed_no_rights_grant",
+      "verbatim_text_status": "withheld_or_absent_quote_free"
+    },
+    "replay_input": {
+      "public_release_status": "included_in_public_release",
+      "derived_artifact_status": "author_created_derived_replay_input",
+      "source_material_access_status": "not_required_for_public_post_extraction_replay",
+      "source_material_redistribution_status": "not_redistributed_no_rights_grant",
+      "verbatim_text_status": "withheld_or_absent_quote_free"
+    }
+  }
+}
